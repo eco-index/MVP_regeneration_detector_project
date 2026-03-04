@@ -1,0 +1,3 @@
+#! /usr/bin/sh
+
+exec .venv/bin/python sam2_inference.py "$@"

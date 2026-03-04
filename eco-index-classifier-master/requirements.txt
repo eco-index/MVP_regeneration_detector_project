@@ -1,0 +1,13 @@
+torch
+huggingface_hub
+transformers
+einops
+timm
+terratorch==0.99.8
+lightning
+albumentations
+pandas
+pillow
+tqdm
+numpy
+torchvision

@@ -1,0 +1,5 @@
+Command to create dataset:
+python create_dataset.py --input_dir plantings-validated-flattened-15-12-2025 --output_dir new_dataset --size 512 --num_pairs 10000 --threshold 0.1 --pos_neg_ratio 1 --train_split 0.8
+
+Command to train prithvi2:
+python -m prithvi2.train --train_csv new_dataset/train/pairs.csv --val_csv new_dataset/test/pairs.csv

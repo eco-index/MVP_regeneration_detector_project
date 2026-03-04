@@ -1,0 +1,6 @@
+opencv-python
+tqdm
+pandas
+pycocotools            # only if you decide to export COCO JSON
+torch
+torchvision

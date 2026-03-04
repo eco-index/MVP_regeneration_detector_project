@@ -1,0 +1,10 @@
+.venv/bin/python sam2_finetune.py \
+    --train_csv dataset/train/pairs.csv \
+    --test_csv dataset/test/pairs.csv \
+    --epochs 100 \
+    --examples 4 \
+    --max_clicks 4 \
+    --bs 16 \
+    --lr 1e-4 \
+    --log_interval 20 \
+    --use_scheduler
