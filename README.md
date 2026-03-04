@@ -3,7 +3,7 @@ Detection of native plantings in New Zealand
 
 This project aimed to detect native planting efforts through the use of satellite imagery combined with a neural network approach. The native plantings are between 30-50% canopy cover and a trial area of the Waiwhakaiho area within the Taranaki region was used.
 
-This project was a joint effort between Litmus Datatech and Eco-index. Litmus created the satellite data collection as well as the neural network model (based on Prithvi V2).
+This project was a joint effort between Litmus Datatech, Trees that Count, Taranaki Mounga Project and Eco-index. Litmus created the satellite data collection as well as the neural network model (based on Prithvi V2). Trees That Count provided the areas and locations for recorded planting efforts across New Zealand, Taranaki Mounga Project provided the validation of plantings across the Waiwhakaiho and eco-Index organized the efforts from each organization as well as provided data cleaning and handling between each step.
 
 An initial attempt to use the SAM2 model did not work out successfully so a switch to Prithvi was done.
 
