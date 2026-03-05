@@ -1,0 +1,13 @@
+albumentations
+datasets
+evaluate
+huggingface-hub
+matplotlib
+numpy
+Pillow
+playwright
+scikit-learn
+torch
+torchvision
+tqdm
+transformers

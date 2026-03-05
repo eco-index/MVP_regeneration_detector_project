@@ -1,0 +1,24 @@
+{% for item_data in items %}
+<div class="item">
+    <div class="item-header">
+        Item ID: {{ item_data.id }}
+        {% if item_data.mask_percentage_display %}
+        | Mask Coverage: <span class="mask-percentage">{{ item_data.mask_percentage_display }}</span>
+        {% endif %}
+    </div>
+    {% if item_data.error %}
+    <p class="error-message" style="width:100%; text-align:center;">{{ item_data.error }}</p>
+    {% else %}
+    <div class="item-content">
+        <div class="image-pair">
+            <p>Raw Image</p>
+            <img src="{{ item_data.image_b64 }}" alt="Raw Image {{ item_data.id }}" loading="lazy">
+        </div>
+        <div class="image-pair">
+            <p>Ground Truth Mask</p>
+            <img src="{{ item_data.mask_b64 }}" alt="Mask {{ item_data.id }}" loading="lazy">
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endfor %}

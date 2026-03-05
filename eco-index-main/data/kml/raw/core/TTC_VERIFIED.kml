@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>VERIFIED.kml</name>
+	<Schema name="C:/Users/corey/Desktop/Eco-index/Observer_planting_detector/volunteered_data/Call for Plantings Data/kml_versions/trees_that_count_nz_data_cleaned_polygons_20192022.kml" id="dissolved.schema">
+		<SimpleField type="float" name="fid"></SimpleField>
+		<SimpleField type="string" name="ID"></SimpleField>
+		<SimpleField type="string" name="Quantity"></SimpleField>
+		<SimpleField type="string" name="Species_Name"></SimpleField>
+		<SimpleField type="string" name="Species_Scientific"></SimpleField>
+		<SimpleField type="string" name="Planting_SubmittedOn"></SimpleField>
+		<SimpleField type="string" name="Application_Geo"></SimpleField>
+		<SimpleField type="string" name="Application_Reference"></SimpleField>
+		<SimpleField type="float" name="Season_Name"></SimpleField>
+		<SimpleField type="string" name="geo_column"></SimpleField>
+		<SimpleField type="int" name="Area (m^2)"></SimpleField>
+	</Schema>
+	<Schema name="C:/Users/corey/Desktop/Eco-index/Observer_planting_detector/volunteered_data/Call for Plantings Data/kml_versions/trees_that_count_nz_data_cleaned_polygons_20192022.kml" id="dissolved.schema0">
+		<SimpleField type="float" name="fid"></SimpleField>
+		<SimpleField type="string" name="ID"></SimpleField>
+		<SimpleField type="string" name="Quantity"></SimpleField>
+		<SimpleField type="string" name="Species_Name"></SimpleField>
+		<SimpleField type="string" name="Species_Scientific"></SimpleField>
+		<SimpleField type="string" name="Planting_SubmittedOn"></SimpleField>
+		<SimpleField type="string" name="Application_Geo"></SimpleField>
+		<SimpleField type="string" name="Application_Reference"></SimpleField>
+		<SimpleField type="float" name="Season_Name"></SimpleField>
+		<SimpleField type="string" name="geo_column"></SimpleField>
+		<SimpleField type="int" name="Area (m^2)"></SimpleField>
+	</Schema>
+	<Schema name="C:/Users/corey/Desktop/Eco-index/Observer_planting_detector/volunteered_data/Call for Plantings Data/kml_versions/trees_that_count_nz_data_cleaned_polygons_20192022.kml" id="dissolved.schema00">
+		<SimpleField type="float" name="fid"></SimpleField>
+		<SimpleField type="string" name="ID"></SimpleField>
+		<SimpleField type="string" name="Quantity"></SimpleField>
+		<SimpleField type="string" name="Species_Name"></SimpleField>
+		<SimpleField type="string" name="Species_Scientific"></SimpleField>
+		<SimpleField type="string" name="Planting_SubmittedOn"></SimpleField>
+		<SimpleField type="string" name="Application_Geo"></SimpleField>
+		<SimpleField type="string" name="Application_Reference"></SimpleField>
+		<SimpleField type="float" name="Season_Name"></SimpleField>
+		<SimpleField type="string" name="geo_column"></SimpleField>
+		<SimpleField type="int" name="Area (m^2)"></SimpleField>
+	</Schema>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>VERIFIED</name>
+		<visibility>0</visibility>
+		<Placemark id="dissolved.118">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">1507</SimpleData>
+					<SimpleData name="ID">cafe84ab-55cf-e911-81d2-02c97d3ed8b4</SimpleData>
+					<SimpleData name="Quantity">2,660</SimpleData>
+					<SimpleData name="Species_Name">I don&apos;t know</SimpleData>
+					<SimpleData name="Species_Scientific">I don&apos;t know yet</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">March 18, 2019, 10:23 PM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJQw2R_IYmMm0R7i2-3ocp9q4&quot;,&quot;lat&quot;:-43.625217080612742,&quot;lng&quot;:172.69005150986368,&quot;poly&quot;:[{&quot;lat&quot;:-43.625686940071439,&quot;lng&quot;:172.68918783856088},{&quot;lat&quot;:-43.625745186568352,&quot;lng&quot;:172.68935413551981},{&quot;lat&quot;:-43.625605394880949,&quot;lng&quot;:172.68953116131479},{&quot;lat&quot;:-43.625605394880949,&quot;lng&quot;:172.68978865338022},{&quot;lat&quot;:-43.625255914240206,&quot;lng&quot;:172.69039483261759},{&quot;lat&quot;:-43.624828768475638,&quot;lng&quot;:172.69091518116647},{&quot;lat&quot;:-43.624688974657126,&quot;lng&quot;:172.6906308670109},{&quot;lat&quot;:-43.6250850562986,&quot;lng&quot;:172.69017489147836},{&quot;lat&quot;:-43.625333576780406,&quot;lng&quot;:172.68972428036386},{&quot;lat&quot;:-43.625485297796835,&quot;lng&quot;:172.6894077797001}],&quot;region&quot;:&quot;Canterbury&quot;,&quot;district&quot;:&quot;Christchurch City&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">102,216</SimpleData>
+					<SimpleData name="Season_Name">2019</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJQw2R_IYmMm0R7i2-3ocp9q4&quot;,&quot;lat&quot;:-43.625217080612742,&quot;lng&quot;:172.69005150986368,&quot;poly&quot;:[{&quot;lat&quot;:-43.625686940071439,&quot;lng&quot;:172.68918783856088},{&quot;lat&quot;:-43.625745186568352,&quot;lng&quot;:172.68935413551981},{&quot;lat&quot;:-43.625605394880949,&quot;lng&quot;:172.68953116131479},{&quot;lat&quot;:-43.625605394880949,&quot;lng&quot;:172.68978865338022},{&quot;lat&quot;:-43.625255914240206,&quot;lng&quot;:172.69039483261759},{&quot;lat&quot;:-43.624828768475638,&quot;lng&quot;:172.69091518116647},{&quot;lat&quot;:-43.624688974657126,&quot;lng&quot;:172.6906308670109},{&quot;lat&quot;:-43.6250850562986,&quot;lng&quot;:172.69017489147836},{&quot;lat&quot;:-43.625333576780406,&quot;lng&quot;:172.68972428036386},{&quot;lat&quot;:-43.625485297796835,&quot;lng&quot;:172.6894077797001}],&quot;region&quot;:&quot;Canterbury&quot;,&quot;district&quot;:&quot;Christchurch City&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">3989</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							172.689187838561,-43.6256869400714,0 172.6894077797,-43.6254852977968,0 172.689724280364,-43.6253335767804,0 172.690174891478,-43.6250850562986,0 172.690630867011,-43.6246889746571,0 172.690915181166,-43.6248287684756,0 172.690394832618,-43.6252559142402,0 172.68978865338,-43.6256053948809,0 172.689531161315,-43.6256053948809,0 172.68935413552,-43.6257451865683,0 172.689187838561,-43.6256869400714,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.115">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">800</SimpleData>
+					<SimpleData name="ID">ebf5b1bf-cf38-eb11-82e3-024706c78c18</SimpleData>
+					<SimpleData name="Quantity">100</SimpleData>
+					<SimpleData name="Species_Name">Houhere, North Island lacebark</SimpleData>
+					<SimpleData name="Species_Scientific">Hoheria populnea</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">December 7, 2020, 9:04 PM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJeafU6-zNaW0RKtvVNozFW-s&quot;,&quot;lat&quot;:-39.76270695772946,&quot;lng&quot;:176.83782318741316,&quot;poly&quot;:[{&quot;lat&quot;:-39.76141626212289,&quot;lng&quot;:176.83931986004347},{&quot;lat&quot;:-39.762966757908295,&quot;lng&quot;:176.83953443676467},{&quot;lat&quot;:-39.762983252356634,&quot;lng&quot;:176.83853665501113},{&quot;lat&quot;:-39.763032735677946,&quot;lng&quot;:176.83821478992934},{&quot;lat&quot;:-39.76356055555934,&quot;lng&quot;:176.83780709415907},{&quot;lat&quot;:-39.76342860096829,&quot;lng&quot;:176.83674493938918},{&quot;lat&quot;:-39.76399765333603,&quot;lng&quot;:176.83662692219252},{&quot;lat&quot;:-39.76379972261108,&quot;lng&quot;:176.83625141293044},{&quot;lat&quot;:-39.7631399494188,&quot;lng&quot;:176.83611193806166},{&quot;lat&quot;:-39.76291727453957,&quot;lng&quot;:176.8367663970613},{&quot;lat&quot;:-39.76297500513295,&quot;lng&quot;:176.83759251743788},{&quot;lat&quot;:-39.762010073144324,&quot;lng&quot;:176.83820406109328},{&quot;lat&quot;:-39.76165543662239,&quot;lng&quot;:176.83825770527358}],&quot;region&quot;:&quot;Hawke&apos;s Bay&quot;,&quot;district&quot;:&quot;Hastings District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">104,067</SimpleData>
+					<SimpleData name="Season_Name">2020</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJeafU6-zNaW0RKtvVNozFW-s&quot;,&quot;lat&quot;:-39.76270695772946,&quot;lng&quot;:176.83782318741316,&quot;poly&quot;:[{&quot;lat&quot;:-39.76141626212289,&quot;lng&quot;:176.83931986004347},{&quot;lat&quot;:-39.762966757908295,&quot;lng&quot;:176.83953443676467},{&quot;lat&quot;:-39.762983252356634,&quot;lng&quot;:176.83853665501113},{&quot;lat&quot;:-39.763032735677946,&quot;lng&quot;:176.83821478992934},{&quot;lat&quot;:-39.76356055555934,&quot;lng&quot;:176.83780709415907},{&quot;lat&quot;:-39.76342860096829,&quot;lng&quot;:176.83674493938918},{&quot;lat&quot;:-39.76399765333603,&quot;lng&quot;:176.83662692219252},{&quot;lat&quot;:-39.76379972261108,&quot;lng&quot;:176.83625141293044},{&quot;lat&quot;:-39.7631399494188,&quot;lng&quot;:176.83611193806166},{&quot;lat&quot;:-39.76291727453957,&quot;lng&quot;:176.8367663970613},{&quot;lat&quot;:-39.76297500513295,&quot;lng&quot;:176.83759251743788},{&quot;lat&quot;:-39.762010073144324,&quot;lng&quot;:176.83820406109328},{&quot;lat&quot;:-39.76165543662239,&quot;lng&quot;:176.83825770527358}],&quot;region&quot;:&quot;Hawke&apos;s Bay&quot;,&quot;district&quot;:&quot;Hastings District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">30810</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							176.837807094159,-39.7635605555593,0 176.836744939389,-39.7634286009683,0 176.836626922193,-39.763997653336,0 176.83625141293,-39.7637997226111,0 176.836111938062,-39.7631399494188,0 176.836766397061,-39.7629172745396,0 176.837592517438,-39.762975005133,0 176.838204061093,-39.7620100731443,0 176.838257705274,-39.7616554366224,0 176.839319860043,-39.7614162621229,0 176.839534436765,-39.7629667579083,0 176.838536655011,-39.7629832523566,0 176.838214789929,-39.7630327356779,0 176.837807094159,-39.7635605555593,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.110">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">1269</SimpleData>
+					<SimpleData name="ID">e1b75aa7-d832-ec11-ab22-027b907f4726</SimpleData>
+					<SimpleData name="Quantity">50</SimpleData>
+					<SimpleData name="Species_Name">Horoeka, Lancewood</SimpleData>
+					<SimpleData name="Species_Scientific">Pseudopanax crassifolius</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">October 22, 2021, 1:19 AM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJ7ZTUXnKNMW0RB6Q0O9lH88E&quot;,&quot;lat&quot;:-43.415104840034076,&quot;lng&quot;:172.59444945066795,&quot;poly&quot;:[{&quot;lat&quot;:-43.41469374051223,&quot;lng&quot;:172.5941356322132},{&quot;lat&quot;:-43.414752191057396,&quot;lng&quot;:172.59407125919685},{&quot;lat&quot;:-43.41479505475466,&quot;lng&quot;:172.59407125919685},{&quot;lat&quot;:-43.414876885365196,&quot;lng&quot;:172.59410881012306},{&quot;lat&quot;:-43.4150093727859,&quot;lng&quot;:172.59411953895912},{&quot;lat&quot;:-43.415056132982826,&quot;lng&quot;:172.59406589477882},{&quot;lat&quot;:-43.41511847985589,&quot;lng&quot;:172.59403370827064},{&quot;lat&quot;:-43.41520810337347,&quot;lng&quot;:172.59400152176246},{&quot;lat&quot;:-43.41526265675401,&quot;lng&quot;:172.59403370827064},{&quot;lat&quot;:-43.415309416755356,&quot;lng&quot;:172.59407662361488},{&quot;lat&quot;:-43.41544579988639,&quot;lng&quot;:172.59398542850838},{&quot;lat&quot;:-43.41545359319888,&quot;lng&quot;:172.59378158062324},{&quot;lat&quot;:-43.415480869784716,&quot;lng&quot;:172.5937172076069},{&quot;lat&quot;:-43.41550814635826,&quot;lng&quot;:172.59387814014778},{&quot;lat&quot;:-43.41552373296621,&quot;lng&quot;:172.5940444371067},{&quot;lat&quot;:-43.41550035305279,&quot;lng&quot;:172.5942053696476},{&quot;lat&quot;:-43.41544190322976,&quot;lng&quot;:172.59433948009834},{&quot;lat&quot;:-43.41537566002879,&quot;lng&quot;:172.59445213287697},{&quot;lat&quot;:-43.41531721008541,&quot;lng&quot;:172.59454332798347},{&quot;lat&quot;:-43.415243173409465,&quot;lng&quot;:172.59465061634407},{&quot;lat&quot;:-43.415180826664766,&quot;lng&quot;:172.594816913303},{&quot;lat&quot;:-43.41512627321052,&quot;lng&quot;:172.59495102375374},{&quot;lat&quot;:-43.415048339619176,&quot;lng&quot;:172.5950904986225},{&quot;lat&quot;:-43.41498988935986,&quot;lng&quot;:172.5951602360569},{&quot;lat&quot;:-43.41495871586515,&quot;lng&quot;:172.59518169372902},{&quot;lat&quot;:-43.41486909197849,&quot;lng&quot;:172.59507440536842},{&quot;lat&quot;:-43.414802848150906,&quot;lng&quot;:172.59497784584389},{&quot;lat&quot;:-43.41481064154615,&quot;lng&quot;:172.59457015007362},{&quot;lat&quot;:-43.41478726135742,&quot;lng&quot;:172.5944950482212},{&quot;lat&quot;:-43.4147327075486,&quot;lng&quot;:172.5943877598606},{&quot;lat&quot;:-43.414685947101944,&quot;lng&quot;:172.59429120033607}],&quot;region&quot;:&quot;Canterbury&quot;,&quot;district&quot;:&quot;Waimakariri District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">104,760</SimpleData>
+					<SimpleData name="Season_Name">2021</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJ7ZTUXnKNMW0RB6Q0O9lH88E&quot;,&quot;lat&quot;:-43.415104840034076,&quot;lng&quot;:172.59444945066795,&quot;poly&quot;:[{&quot;lat&quot;:-43.41469374051223,&quot;lng&quot;:172.5941356322132},{&quot;lat&quot;:-43.414752191057396,&quot;lng&quot;:172.59407125919685},{&quot;lat&quot;:-43.41479505475466,&quot;lng&quot;:172.59407125919685},{&quot;lat&quot;:-43.414876885365196,&quot;lng&quot;:172.59410881012306},{&quot;lat&quot;:-43.4150093727859,&quot;lng&quot;:172.59411953895912},{&quot;lat&quot;:-43.415056132982826,&quot;lng&quot;:172.59406589477882},{&quot;lat&quot;:-43.41511847985589,&quot;lng&quot;:172.59403370827064},{&quot;lat&quot;:-43.41520810337347,&quot;lng&quot;:172.59400152176246},{&quot;lat&quot;:-43.41526265675401,&quot;lng&quot;:172.59403370827064},{&quot;lat&quot;:-43.415309416755356,&quot;lng&quot;:172.59407662361488},{&quot;lat&quot;:-43.41544579988639,&quot;lng&quot;:172.59398542850838},{&quot;lat&quot;:-43.41545359319888,&quot;lng&quot;:172.59378158062324},{&quot;lat&quot;:-43.415480869784716,&quot;lng&quot;:172.5937172076069},{&quot;lat&quot;:-43.41550814635826,&quot;lng&quot;:172.59387814014778},{&quot;lat&quot;:-43.41552373296621,&quot;lng&quot;:172.5940444371067},{&quot;lat&quot;:-43.41550035305279,&quot;lng&quot;:172.5942053696476},{&quot;lat&quot;:-43.41544190322976,&quot;lng&quot;:172.59433948009834},{&quot;lat&quot;:-43.41537566002879,&quot;lng&quot;:172.59445213287697},{&quot;lat&quot;:-43.41531721008541,&quot;lng&quot;:172.59454332798347},{&quot;lat&quot;:-43.415243173409465,&quot;lng&quot;:172.59465061634407},{&quot;lat&quot;:-43.415180826664766,&quot;lng&quot;:172.594816913303},{&quot;lat&quot;:-43.41512627321052,&quot;lng&quot;:172.59495102375374},{&quot;lat&quot;:-43.415048339619176,&quot;lng&quot;:172.5950904986225},{&quot;lat&quot;:-43.41498988935986,&quot;lng&quot;:172.5951602360569},{&quot;lat&quot;:-43.41495871586515,&quot;lng&quot;:172.59518169372902},{&quot;lat&quot;:-43.41486909197849,&quot;lng&quot;:172.59507440536842},{&quot;lat&quot;:-43.414802848150906,&quot;lng&quot;:172.59497784584389},{&quot;lat&quot;:-43.41481064154615,&quot;lng&quot;:172.59457015007362},{&quot;lat&quot;:-43.41478726135742,&quot;lng&quot;:172.5944950482212},{&quot;lat&quot;:-43.4147327075486,&quot;lng&quot;:172.5943877598606},{&quot;lat&quot;:-43.414685947101944,&quot;lng&quot;:172.59429120033607}],&quot;region&quot;:&quot;Canterbury&quot;,&quot;district&quot;:&quot;Waimakariri District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">5160</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							172.594495048221,-43.4147872613574,0 172.594570150074,-43.4148106415461,0 172.594977845844,-43.4148028481509,0 172.595074405368,-43.4148690919785,0 172.595181693729,-43.4149587158651,0 172.595160236057,-43.4149898893599,0 172.595090498623,-43.4150483396192,0 172.594951023754,-43.4151262732105,0 172.594816913303,-43.4151808266648,0 172.594650616344,-43.4152431734095,0 172.594543327983,-43.4153172100854,0 172.594452132877,-43.4153756600288,0 172.594339480098,-43.4154419032298,0 172.594205369648,-43.4155003530528,0 172.594044437107,-43.4155237329662,0 172.593878140148,-43.4155081463583,0 172.593717207607,-43.4154808697847,0 172.593781580623,-43.4154535931989,0 172.593985428508,-43.4154457998864,0 172.594076623615,-43.4153094167554,0 172.594033708271,-43.415262656754,0 172.594001521762,-43.4152081033735,0 172.594033708271,-43.4151184798559,0 172.594065894779,-43.4150561329828,0 172.594119538959,-43.4150093727859,0 172.594108810123,-43.4148768853652,0 172.594071259197,-43.4147950547547,0 172.594071259197,-43.4147521910574,0 172.594135632213,-43.4146937405122,0 172.594291200336,-43.4146859471019,0 172.594387759861,-43.4147327075486,0 172.594495048221,-43.4147872613574,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.109">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">222</SimpleData>
+					<SimpleData name="ID">087fb9bd-24e6-4c26-b03a-29d1192a4c93</SimpleData>
+					<SimpleData name="Quantity">544</SimpleData>
+					<SimpleData name="Species_Name">Mānuka</SimpleData>
+					<SimpleData name="Species_Scientific">Leptospermum scoparium</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">September 11, 2023, 4:26 AM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;lat&quot;:-37.18242806911856,&quot;lng&quot;:175.24164757972335,&quot;poly&quot;:[{&quot;lat&quot;:-37.181684408092906,&quot;lng&quot;:175.2427365565834},{&quot;lat&quot;:-37.182188733219576,&quot;lng&quot;:175.24300477748488},{&quot;lat&quot;:-37.18233404661422,&quot;lng&quot;:175.24238250499343},{&quot;lat&quot;:-37.1831717301442,&quot;lng&quot;:175.2403762126503},{&quot;lat&quot;:-37.182906749623996,&quot;lng&quot;:175.2402903819618},{&quot;lat&quot;:-37.1827443417489,&quot;lng&quot;:175.24059078937148},{&quot;lat&quot;:-37.18241952495108,&quot;lng&quot;:175.24048350101089},{&quot;lat&quot;:-37.18233404661422,&quot;lng&quot;:175.24076245074843},{&quot;lat&quot;:-37.18248790755091,&quot;lng&quot;:175.24092338328933},{&quot;lat&quot;:-37.181975036543115,&quot;lng&quot;:175.24165294414138},{&quot;lat&quot;:-37.18182972245779,&quot;lng&quot;:175.24231813197707}],&quot;place_id&quot;:&quot;Eh4xNjI1IE1pcmFuZGEgUm9hZCwgTmV3IFplYWxhbmQiGxIZChQKEgndJS6gaKBybRGkxY9h-RoiDRDZDA&quot;,&quot;region&quot;:&quot;Waikato&quot;,&quot;district&quot;:&quot;Waikato District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">105,290</SimpleData>
+					<SimpleData name="Season_Name">2022</SimpleData>
+					<SimpleData name="geo_column">{&quot;lat&quot;:-37.18242806911856,&quot;lng&quot;:175.24164757972335,&quot;poly&quot;:[{&quot;lat&quot;:-37.181684408092906,&quot;lng&quot;:175.2427365565834},{&quot;lat&quot;:-37.182188733219576,&quot;lng&quot;:175.24300477748488},{&quot;lat&quot;:-37.18233404661422,&quot;lng&quot;:175.24238250499343},{&quot;lat&quot;:-37.1831717301442,&quot;lng&quot;:175.2403762126503},{&quot;lat&quot;:-37.182906749623996,&quot;lng&quot;:175.2402903819618},{&quot;lat&quot;:-37.1827443417489,&quot;lng&quot;:175.24059078937148},{&quot;lat&quot;:-37.18241952495108,&quot;lng&quot;:175.24048350101089},{&quot;lat&quot;:-37.18233404661422,&quot;lng&quot;:175.24076245074843},{&quot;lat&quot;:-37.18248790755091,&quot;lng&quot;:175.24092338328933},{&quot;lat&quot;:-37.181975036543115,&quot;lng&quot;:175.24165294414138},{&quot;lat&quot;:-37.18182972245779,&quot;lng&quot;:175.24231813197707}],&quot;place_id&quot;:&quot;Eh4xNjI1IE1pcmFuZGEgUm9hZCwgTmV3IFplYWxhbmQiGxIZChQKEgndJS6gaKBybRGkxY9h-RoiDRDZDA&quot;,&quot;region&quot;:&quot;Waikato&quot;,&quot;district&quot;:&quot;Waikato District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">13997</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							175.24037621265,-37.1831717301442,0 175.240290381962,-37.182906749624,0 175.240590789371,-37.1827443417489,0 175.240483501011,-37.1824195249511,0 175.240762450748,-37.1823340466142,0 175.240923383289,-37.1824879075509,0 175.241652944141,-37.1819750365431,0 175.242318131977,-37.1818297224578,0 175.242736556583,-37.1816844080929,0 175.243004777485,-37.1821887332196,0 175.242382504993,-37.1823340466142,0 175.24037621265,-37.1831717301442,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.107">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">255</SimpleData>
+					<SimpleData name="ID">e4b0feaf-5f54-4ce6-ab83-8b4167e14319</SimpleData>
+					<SimpleData name="Quantity">20</SimpleData>
+					<SimpleData name="Species_Name">Kahikatea</SimpleData>
+					<SimpleData name="Species_Scientific">Dacrycarpus dacrydioides</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">November 13, 2023, 9:58 PM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJNxo-3QG3C20RAqrQrPWypqo&quot;,&quot;lat&quot;:-35.19595869875094,&quot;lng&quot;:173.9818389382451,&quot;poly&quot;:[{&quot;lat&quot;:-35.19593615491033,&quot;lng&quot;:173.9814113174468},{&quot;lat&quot;:-35.19558044622064,&quot;lng&quot;:173.98198454385394},{&quot;lat&quot;:-35.196316912098304,&quot;lng&quot;:173.98226655904338},{&quot;lat&quot;:-35.19633695128125,&quot;lng&quot;:173.98154312884955}],&quot;region&quot;:&quot;Northland&quot;,&quot;district&quot;:&quot;Far North District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">104,803</SimpleData>
+					<SimpleData name="Season_Name">2021</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJNxo-3QG3C20RAqrQrPWypqo&quot;,&quot;lat&quot;:-35.19595869875094,&quot;lng&quot;:173.9818389382451,&quot;poly&quot;:[{&quot;lat&quot;:-35.19593615491033,&quot;lng&quot;:173.9814113174468},{&quot;lat&quot;:-35.19558044622064,&quot;lng&quot;:173.98198454385394},{&quot;lat&quot;:-35.196316912098304,&quot;lng&quot;:173.98226655904338},{&quot;lat&quot;:-35.19633695128125,&quot;lng&quot;:173.98154312884955}],&quot;region&quot;:&quot;Northland&quot;,&quot;district&quot;:&quot;Far North District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">4118</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							173.98154312885,-35.1963369512812,0 173.981411317447,-35.1959361549103,0 173.981984543854,-35.1955804462206,0 173.982266559043,-35.1963169120983,0 173.98154312885,-35.1963369512812,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.106">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">1326</SimpleData>
+					<SimpleData name="ID">c3960209-16d0-ec11-ab22-027b907f4726</SimpleData>
+					<SimpleData name="Quantity">14</SimpleData>
+					<SimpleData name="Species_Name">Tōtara</SimpleData>
+					<SimpleData name="Species_Scientific">Podocarpus totara</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">May 10, 2022, 4:02 AM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJn4Zm5YsXMm0R-2VPnSHtXAo&quot;,&quot;lat&quot;:-43.702942244473306,&quot;lng&quot;:172.5352250098556,&quot;poly&quot;:[{&quot;lat&quot;:-43.70188352264756,&quot;lng&quot;:172.5357829093307},{&quot;lat&quot;:-43.70213948172737,&quot;lng&quot;:172.5364159106582},{&quot;lat&quot;:-43.703349455311404,&quot;lng&quot;:172.53537521356043},{&quot;lat&quot;:-43.70344252919098,&quot;lng&quot;:172.53553614610132},{&quot;lat&quot;:-43.70408628623515,&quot;lng&quot;:172.53497824662622},{&quot;lat&quot;:-43.70362867651663,&quot;lng&quot;:172.53403410905298},{&quot;lat&quot;:-43.70179820271146,&quot;lng&quot;:172.53571853631433}],&quot;region&quot;:&quot;Canterbury&quot;,&quot;district&quot;:&quot;Selwyn District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">104,932</SimpleData>
+					<SimpleData name="Season_Name">2021</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJn4Zm5YsXMm0R-2VPnSHtXAo&quot;,&quot;lat&quot;:-43.702942244473306,&quot;lng&quot;:172.5352250098556,&quot;poly&quot;:[{&quot;lat&quot;:-43.70188352264756,&quot;lng&quot;:172.5357829093307},{&quot;lat&quot;:-43.70213948172737,&quot;lng&quot;:172.5364159106582},{&quot;lat&quot;:-43.703349455311404,&quot;lng&quot;:172.53537521356043},{&quot;lat&quot;:-43.70344252919098,&quot;lng&quot;:172.53553614610132},{&quot;lat&quot;:-43.70408628623515,&quot;lng&quot;:172.53497824662622},{&quot;lat&quot;:-43.70362867651663,&quot;lng&quot;:172.53403410905298},{&quot;lat&quot;:-43.70179820271146,&quot;lng&quot;:172.53571853631433}],&quot;region&quot;:&quot;Canterbury&quot;,&quot;district&quot;:&quot;Selwyn District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">18712</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							172.535536146101,-43.703442529191,0 172.534978246626,-43.7040862862351,0 172.534034109053,-43.7036286765166,0 172.535718536314,-43.7017982027115,0 172.535782909331,-43.7018835226476,0 172.536415910658,-43.7021394817274,0 172.53537521356,-43.7033494553114,0 172.535536146101,-43.703442529191,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.105">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">1208</SimpleData>
+					<SimpleData name="ID">8349bebe-3e24-ec11-82e3-024706c78c18</SimpleData>
+					<SimpleData name="Quantity">60</SimpleData>
+					<SimpleData name="Species_Name">Makomako, Wineberry</SimpleData>
+					<SimpleData name="Species_Scientific">Aristotelia serrata</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">October 3, 2021, 11:40 AM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJrWiPWlemQG0RIAuKkCwQgak&quot;,&quot;lat&quot;:-40.975167481473534,&quot;lng&quot;:174.9930722964524,&quot;poly&quot;:[{&quot;lat&quot;:-40.97534568736424,&quot;lng&quot;:174.9914522422074},{&quot;lat&quot;:-40.975450989664076,&quot;lng&quot;:174.99255731232154},{&quot;lat&quot;:-40.97520798410313,&quot;lng&quot;:174.9932010424851},{&quot;lat&quot;:-40.975029779456186,&quot;lng&quot;:174.9937052977799},{&quot;lat&quot;:-40.97470576977389,&quot;lng&quot;:174.99456360466468},{&quot;lat&quot;:-40.9748596745714,&quot;lng&quot;:174.99470307953345},{&quot;lat&quot;:-40.97560489272301,&quot;lng&quot;:174.99255731232154},{&quot;lat&quot;:-40.97562919317318,&quot;lng&quot;:174.99144151337134}],&quot;region&quot;:&quot;Wellington&quot;,&quot;district&quot;:&quot;Kapiti Coast District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">104,889</SimpleData>
+					<SimpleData name="Season_Name">2021</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJrWiPWlemQG0RIAuKkCwQgak&quot;,&quot;lat&quot;:-40.975167481473534,&quot;lng&quot;:174.9930722964524,&quot;poly&quot;:[{&quot;lat&quot;:-40.97534568736424,&quot;lng&quot;:174.9914522422074},{&quot;lat&quot;:-40.975450989664076,&quot;lng&quot;:174.99255731232154},{&quot;lat&quot;:-40.97520798410313,&quot;lng&quot;:174.9932010424851},{&quot;lat&quot;:-40.975029779456186,&quot;lng&quot;:174.9937052977799},{&quot;lat&quot;:-40.97470576977389,&quot;lng&quot;:174.99456360466468},{&quot;lat&quot;:-40.9748596745714,&quot;lng&quot;:174.99470307953345},{&quot;lat&quot;:-40.97560489272301,&quot;lng&quot;:174.99255731232154},{&quot;lat&quot;:-40.97562919317318,&quot;lng&quot;:174.99144151337134}],&quot;region&quot;:&quot;Wellington&quot;,&quot;district&quot;:&quot;Kapiti Coast District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">5732</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							174.994563604665,-40.9747057697739,0 174.994703079533,-40.9748596745714,0 174.992557312322,-40.975604892723,0 174.991441513371,-40.9756291931732,0 174.991452242207,-40.9753456873642,0 174.992557312322,-40.9754509896641,0 174.993201042485,-40.9752079841031,0 174.99370529778,-40.9750297794562,0 174.994563604665,-40.9747057697739,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.98">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">704</SimpleData>
+					<SimpleData name="ID">cf428308-84ed-ea11-82e3-024706c78c18</SimpleData>
+					<SimpleData name="Quantity">10</SimpleData>
+					<SimpleData name="Species_Name">Makomako, Wineberry</SimpleData>
+					<SimpleData name="Species_Scientific">Aristotelia serrata</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">September 3, 2020, 1:23 AM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJpT13ZsWzaW0RQRKdAIuJiCk&quot;,&quot;lat&quot;:-39.495876357814268,&quot;lng&quot;:176.83462343391557,&quot;poly&quot;:[{&quot;lat&quot;:-39.49594983560759,&quot;lng&quot;:176.83343789753098},{&quot;lat&quot;:-39.495920858695413,&quot;lng&quot;:176.83352104601045},{&quot;lat&quot;:-39.495908440015057,&quot;lng&quot;:176.83359883007188},{&quot;lat&quot;:-39.495927068034753,&quot;lng&quot;:176.83364979204316},{&quot;lat&quot;:-39.495980882285807,&quot;lng&quot;:176.8336927073874},{&quot;lat&quot;:-39.495985021841854,&quot;lng&quot;:176.83375171598573},{&quot;lat&quot;:-39.495985021841854,&quot;lng&quot;:176.83382145342011},{&quot;lat&quot;:-39.495985021841854,&quot;lng&quot;:176.83389655527253},{&quot;lat&quot;:-39.496009859172972,&quot;lng&quot;:176.83397702154298},{&quot;lat&quot;:-39.496013998727292,&quot;lng&quot;:176.83406285223145},{&quot;lat&quot;:-39.496018138281372,&quot;lng&quot;:176.83413795408387},{&quot;lat&quot;:-39.496026417388784,&quot;lng&quot;:176.83422110256333},{&quot;lat&quot;:-39.495985021841854,&quot;lng&quot;:176.83425328907151},{&quot;lat&quot;:-39.495993300953209,&quot;lng&quot;:176.83431497987885},{&quot;lat&quot;:-39.496013998727292,&quot;lng&quot;:176.83439276394029},{&quot;lat&quot;:-39.496003649841022,&quot;lng&quot;:176.83446518358369},{&quot;lat&quot;:-39.495980882285807,&quot;lng&quot;:176.83452419218202},{&quot;lat&quot;:-39.495937416932421,&quot;lng&quot;:176.83456710752625},{&quot;lat&quot;:-39.495821509190513,&quot;lng&quot;:176.83453492101808},{&quot;lat&quot;:-39.495819439407654,&quot;lng&quot;:176.83469317134995},{&quot;lat&quot;:-39.495879463085622,&quot;lng&quot;:176.83473876890321},{&quot;lat&quot;:-39.495875323523293,&quot;lng&quot;:176.83479777750154},{&quot;lat&quot;:-39.495823578973315,&quot;lng&quot;:176.83483532842774},{&quot;lat&quot;:-39.495848416362108,&quot;lng&quot;:176.83488897260804},{&quot;lat&quot;:-39.495862904834809,&quot;lng&quot;:176.83499089655061},{&quot;lat&quot;:-39.495862904834809,&quot;lng&quot;:176.83509282049317},{&quot;lat&quot;:-39.495833927886395,&quot;lng&quot;:176.83516524013658},{&quot;lat&quot;:-39.495786322873485,&quot;lng&quot;:176.83524838861604},{&quot;lat&quot;:-39.495732508471811,&quot;lng&quot;:176.83531007942338},{&quot;lat&quot;:-39.49565385657904,&quot;lng&quot;:176.83536372360368},{&quot;lat&quot;:-39.495587623337158,&quot;lng&quot;:176.83580897030015},{&quot;lat&quot;:-39.495924998255035,&quot;lng&quot;:176.83559171136994},{&quot;lat&quot;:-39.496136115468907,&quot;lng&quot;:176.83531544384141},{&quot;lat&quot;:-39.496158882973283,&quot;lng&quot;:176.83518401559968},{&quot;lat&quot;:-39.49614646433546,&quot;lng&quot;:176.83506868061204},{&quot;lat&quot;:-39.496080231562928,&quot;lng&quot;:176.83481655296464},{&quot;lat&quot;:-39.496109208408676,&quot;lng&quot;:176.83471462902207},{&quot;lat&quot;:-39.496113347957092,&quot;lng&quot;:176.83459929403443},{&quot;lat&quot;:-39.496154743427589,&quot;lng&quot;:176.83438739952226},{&quot;lat&quot;:-39.496165092291371,&quot;lng&quot;:176.83421037372727},{&quot;lat&quot;:-39.496156813200471,&quot;lng&quot;:176.83400652584214},{&quot;lat&quot;:-39.496142324789034,&quot;lng&quot;:176.83382413562913},{&quot;lat&quot;:-39.496049184929085,&quot;lng&quot;:176.83359078344483}],&quot;region&quot;:&quot;Hawke&apos;s Bay&quot;,&quot;district&quot;:&quot;Napier City&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">102,738</SimpleData>
+					<SimpleData name="Season_Name">2020</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJpT13ZsWzaW0RQRKdAIuJiCk&quot;,&quot;lat&quot;:-39.495876357814268,&quot;lng&quot;:176.83462343391557,&quot;poly&quot;:[{&quot;lat&quot;:-39.49594983560759,&quot;lng&quot;:176.83343789753098},{&quot;lat&quot;:-39.495920858695413,&quot;lng&quot;:176.83352104601045},{&quot;lat&quot;:-39.495908440015057,&quot;lng&quot;:176.83359883007188},{&quot;lat&quot;:-39.495927068034753,&quot;lng&quot;:176.83364979204316},{&quot;lat&quot;:-39.495980882285807,&quot;lng&quot;:176.8336927073874},{&quot;lat&quot;:-39.495985021841854,&quot;lng&quot;:176.83375171598573},{&quot;lat&quot;:-39.495985021841854,&quot;lng&quot;:176.83382145342011},{&quot;lat&quot;:-39.495985021841854,&quot;lng&quot;:176.83389655527253},{&quot;lat&quot;:-39.496009859172972,&quot;lng&quot;:176.83397702154298},{&quot;lat&quot;:-39.496013998727292,&quot;lng&quot;:176.83406285223145},{&quot;lat&quot;:-39.496018138281372,&quot;lng&quot;:176.83413795408387},{&quot;lat&quot;:-39.496026417388784,&quot;lng&quot;:176.83422110256333},{&quot;lat&quot;:-39.495985021841854,&quot;lng&quot;:176.83425328907151},{&quot;lat&quot;:-39.495993300953209,&quot;lng&quot;:176.83431497987885},{&quot;lat&quot;:-39.496013998727292,&quot;lng&quot;:176.83439276394029},{&quot;lat&quot;:-39.496003649841022,&quot;lng&quot;:176.83446518358369},{&quot;lat&quot;:-39.495980882285807,&quot;lng&quot;:176.83452419218202},{&quot;lat&quot;:-39.495937416932421,&quot;lng&quot;:176.83456710752625},{&quot;lat&quot;:-39.495821509190513,&quot;lng&quot;:176.83453492101808},{&quot;lat&quot;:-39.495819439407654,&quot;lng&quot;:176.83469317134995},{&quot;lat&quot;:-39.495879463085622,&quot;lng&quot;:176.83473876890321},{&quot;lat&quot;:-39.495875323523293,&quot;lng&quot;:176.83479777750154},{&quot;lat&quot;:-39.495823578973315,&quot;lng&quot;:176.83483532842774},{&quot;lat&quot;:-39.495848416362108,&quot;lng&quot;:176.83488897260804},{&quot;lat&quot;:-39.495862904834809,&quot;lng&quot;:176.83499089655061},{&quot;lat&quot;:-39.495862904834809,&quot;lng&quot;:176.83509282049317},{&quot;lat&quot;:-39.495833927886395,&quot;lng&quot;:176.83516524013658},{&quot;lat&quot;:-39.495786322873485,&quot;lng&quot;:176.83524838861604},{&quot;lat&quot;:-39.495732508471811,&quot;lng&quot;:176.83531007942338},{&quot;lat&quot;:-39.49565385657904,&quot;lng&quot;:176.83536372360368},{&quot;lat&quot;:-39.495587623337158,&quot;lng&quot;:176.83580897030015},{&quot;lat&quot;:-39.495924998255035,&quot;lng&quot;:176.83559171136994},{&quot;lat&quot;:-39.496136115468907,&quot;lng&quot;:176.83531544384141},{&quot;lat&quot;:-39.496158882973283,&quot;lng&quot;:176.83518401559968},{&quot;lat&quot;:-39.49614646433546,&quot;lng&quot;:176.83506868061204},{&quot;lat&quot;:-39.496080231562928,&quot;lng&quot;:176.83481655296464},{&quot;lat&quot;:-39.496109208408676,&quot;lng&quot;:176.83471462902207},{&quot;lat&quot;:-39.496113347957092,&quot;lng&quot;:176.83459929403443},{&quot;lat&quot;:-39.496154743427589,&quot;lng&quot;:176.83438739952226},{&quot;lat&quot;:-39.496165092291371,&quot;lng&quot;:176.83421037372727},{&quot;lat&quot;:-39.496156813200471,&quot;lng&quot;:176.83400652584214},{&quot;lat&quot;:-39.496142324789034,&quot;lng&quot;:176.83382413562913},{&quot;lat&quot;:-39.496049184929085,&quot;lng&quot;:176.83359078344483}],&quot;region&quot;:&quot;Hawke&apos;s Bay&quot;,&quot;district&quot;:&quot;Napier City&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">4876</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							176.833692707387,-39.4959808822858,0 176.833751715986,-39.4959850218418,0 176.83382145342,-39.4959850218419,0 176.833896555273,-39.4959850218418,0 176.833977021543,-39.496009859173,0 176.834062852231,-39.4960139987273,0 176.834137954084,-39.4960181382814,0 176.834221102563,-39.4960264173888,0 176.834253289072,-39.4959850218419,0 176.834314979879,-39.4959933009532,0 176.83439276394,-39.4960139987273,0 176.834465183584,-39.496003649841,0 176.834524192182,-39.4959808822858,0 176.834567107526,-39.4959374169324,0 176.834534921018,-39.4958215091905,0 176.83469317135,-39.4958194394077,0 176.834738768903,-39.4958794630856,0 176.834797777502,-39.4958753235233,0 176.834835328428,-39.4958235789733,0 176.834888972608,-39.4958484163621,0 176.834990896551,-39.4958629048348,0 176.835092820493,-39.4958629048348,0 176.835165240137,-39.4958339278864,0 176.835248388616,-39.4957863228735,0 176.835310079423,-39.4957325084718,0 176.835363723604,-39.495653856579,0 176.8358089703,-39.4955876233372,0 176.83559171137,-39.495924998255,0 176.835315443841,-39.4961361154689,0 176.8351840156,-39.4961588829733,0 176.835068680612,-39.4961464643355,0 176.834816552965,-39.4960802315629,0 176.834714629022,-39.4961092084087,0 176.834599294034,-39.4961133479571,0 176.834387399522,-39.4961547434276,0 176.834210373727,-39.4961650922914,0 176.834006525842,-39.4961568132005,0 176.833824135629,-39.496142324789,0 176.833590783445,-39.4960491849291,0 176.833437897531,-39.4959498356076,0 176.83352104601,-39.4959208586954,0 176.833598830072,-39.4959084400151,0 176.833649792043,-39.4959270680348,0 176.833692707387,-39.4959808822858,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.95">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">1109</SimpleData>
+					<SimpleData name="ID">ad2a0bfa-7b01-ec11-82e3-024706c78c18</SimpleData>
+					<SimpleData name="Quantity">50</SimpleData>
+					<SimpleData name="Species_Name">Akeake</SimpleData>
+					<SimpleData name="Species_Scientific">Dodonaea viscosa</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">August 20, 2021, 6:01 AM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJQxBq9DzYZW0R-VDaVUsdKqI&quot;,&quot;lat&quot;:-38.611037142811114,&quot;lng&quot;:177.9995923286715,&quot;poly&quot;:[{&quot;lat&quot;:-38.61082021971377,&quot;lng&quot;:177.999231571559},{&quot;lat&quot;:-38.61100046561496,&quot;lng&quot;:177.9995185679236},{&quot;lat&quot;:-38.61072171304152,&quot;lng&quot;:178.00015961587815},{&quot;lat&quot;:-38.61094178095266,&quot;lng&quot;:178.00020253122239},{&quot;lat&quot;:-38.61096483564714,&quot;lng&quot;:178.00014352262406},{&quot;lat&quot;:-38.61093968507098,&quot;lng&quot;:177.9999906367102},{&quot;lat&quot;:-38.61092082213306,&quot;lng&quot;:177.9998457974234},{&quot;lat&quot;:-38.611134601805674,&quot;lng&quot;:177.99935227096466},{&quot;lat&quot;:-38.61135257258071,&quot;lng&quot;:177.99925571144013},{&quot;lat&quot;:-38.61134418910161,&quot;lng&quot;:177.9989821261206},{&quot;lat&quot;:-38.61103399968615,&quot;lng&quot;:177.99910282552628}],&quot;region&quot;:&quot;Gisborne&quot;,&quot;district&quot;:&quot;Gisborne District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">104,872</SimpleData>
+					<SimpleData name="Season_Name">2021</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJQxBq9DzYZW0R-VDaVUsdKqI&quot;,&quot;lat&quot;:-38.611037142811114,&quot;lng&quot;:177.9995923286715,&quot;poly&quot;:[{&quot;lat&quot;:-38.61082021971377,&quot;lng&quot;:177.999231571559},{&quot;lat&quot;:-38.61100046561496,&quot;lng&quot;:177.9995185679236},{&quot;lat&quot;:-38.61072171304152,&quot;lng&quot;:178.00015961587815},{&quot;lat&quot;:-38.61094178095266,&quot;lng&quot;:178.00020253122239},{&quot;lat&quot;:-38.61096483564714,&quot;lng&quot;:178.00014352262406},{&quot;lat&quot;:-38.61093968507098,&quot;lng&quot;:177.9999906367102},{&quot;lat&quot;:-38.61092082213306,&quot;lng&quot;:177.9998457974234},{&quot;lat&quot;:-38.611134601805674,&quot;lng&quot;:177.99935227096466},{&quot;lat&quot;:-38.61135257258071,&quot;lng&quot;:177.99925571144013},{&quot;lat&quot;:-38.61134418910161,&quot;lng&quot;:177.9989821261206},{&quot;lat&quot;:-38.61103399968615,&quot;lng&quot;:177.99910282552628}],&quot;region&quot;:&quot;Gisborne&quot;,&quot;district&quot;:&quot;Gisborne District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">2136</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							178.000202531222,-38.6109417809527,0 178.000143522624,-38.6109648356471,0 177.99999063671,-38.610939685071,0 177.999845797423,-38.6109208221331,0 177.999352270965,-38.6111346018057,0 177.99925571144,-38.6113525725807,0 177.998982126121,-38.6113441891016,0 177.999102825526,-38.6110339996861,0 177.999231571559,-38.6108202197138,0 177.999518567924,-38.6110004656149,0 178.000159615878,-38.6107217130415,0 178.000202531222,-38.6109417809527,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.94">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">1003</SimpleData>
+					<SimpleData name="ID">2c1c9a57-7cf6-eb11-82e3-024706c78c18</SimpleData>
+					<SimpleData name="Quantity">640</SimpleData>
+					<SimpleData name="Species_Name">Unknown shrub</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">December 4, 2018, 7:13 AM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJme8EpfSZO20Ricld4jpi2B4&quot;,&quot;lat&quot;:-41.317232459856164,&quot;lng&quot;:173.05762640322996,&quot;poly&quot;:[{&quot;lat&quot;:-41.316769122049379,&quot;lng&quot;:173.05712550069643},{&quot;lat&quot;:-41.317143823409339,&quot;lng&quot;:173.05707453872515},{&quot;lat&quot;:-41.31746413092867,&quot;lng&quot;:173.05682911660028},{&quot;lat&quot;:-41.317776378882,&quot;lng&quot;:173.05694847490145},{&quot;lat&quot;:-41.317599102808167,&quot;lng&quot;:173.05842368985964},{&quot;lat&quot;:-41.31718814278257,&quot;lng&quot;:173.05811255361391},{&quot;lat&quot;:-41.316688540830327,&quot;lng&quot;:173.05792479898287}],&quot;region&quot;:&quot;Tasman&quot;,&quot;district&quot;:&quot;Tasman District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">101,887</SimpleData>
+					<SimpleData name="Season_Name">2019</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJme8EpfSZO20Ricld4jpi2B4&quot;,&quot;lat&quot;:-41.317232459856164,&quot;lng&quot;:173.05762640322996,&quot;poly&quot;:[{&quot;lat&quot;:-41.316769122049379,&quot;lng&quot;:173.05712550069643},{&quot;lat&quot;:-41.317143823409339,&quot;lng&quot;:173.05707453872515},{&quot;lat&quot;:-41.31746413092867,&quot;lng&quot;:173.05682911660028},{&quot;lat&quot;:-41.317776378882,&quot;lng&quot;:173.05694847490145},{&quot;lat&quot;:-41.317599102808167,&quot;lng&quot;:173.05842368985964},{&quot;lat&quot;:-41.31718814278257,&quot;lng&quot;:173.05811255361391},{&quot;lat&quot;:-41.316688540830327,&quot;lng&quot;:173.05792479898287}],&quot;region&quot;:&quot;Tasman&quot;,&quot;district&quot;:&quot;Tasman District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">10434</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							173.057924798983,-41.3166885408303,0 173.058112553614,-41.3171881427826,0 173.05842368986,-41.3175991028082,0 173.056948474901,-41.317776378882,0 173.0568291166,-41.3174641309287,0 173.057074538725,-41.3171438234093,0 173.057125500696,-41.3167691220494,0 173.057924798983,-41.3166885408303,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.75">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">550</SimpleData>
+					<SimpleData name="ID">c44e31a7-39b2-ed11-abbe-0242dd29bb30</SimpleData>
+					<SimpleData name="Quantity">100</SimpleData>
+					<SimpleData name="Species_Name">Pittosporum ellipticum</SimpleData>
+					<SimpleData name="Species_Scientific">Pittosporum ellipticum</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">February 21, 2023, 10:47 PM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJZd2rUouZO20RYZc-RHwq-U4&quot;,&quot;lat&quot;:-41.31694520147944,&quot;lng&quot;:173.05763555941445,&quot;poly&quot;:[{&quot;lat&quot;:-41.31671856764951,&quot;lng&quot;:173.05745316920144},{&quot;lat&quot;:-41.31709125478085,&quot;lng&quot;:173.0574478047834},{&quot;lat&quot;:-41.31719802421496,&quot;lng&quot;:173.0576972502218},{&quot;lat&quot;:-41.31718392260161,&quot;lng&quot;:173.0578233140455},{&quot;lat&quot;:-41.31669237874392,&quot;lng&quot;:173.05779380974633}],&quot;region&quot;:&quot;Tasman&quot;,&quot;district&quot;:&quot;Tasman District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">105,157</SimpleData>
+					<SimpleData name="Season_Name">2022</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJZd2rUouZO20RYZc-RHwq-U4&quot;,&quot;lat&quot;:-41.31694520147944,&quot;lng&quot;:173.05763555941445,&quot;poly&quot;:[{&quot;lat&quot;:-41.31671856764951,&quot;lng&quot;:173.05745316920144},{&quot;lat&quot;:-41.31709125478085,&quot;lng&quot;:173.0574478047834},{&quot;lat&quot;:-41.31719802421496,&quot;lng&quot;:173.0576972502218},{&quot;lat&quot;:-41.31718392260161,&quot;lng&quot;:173.0578233140455},{&quot;lat&quot;:-41.31669237874392,&quot;lng&quot;:173.05779380974633}],&quot;region&quot;:&quot;Tasman&quot;,&quot;district&quot;:&quot;Tasman District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">1514</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							173.057697250222,-41.317198024215,0 173.057447804783,-41.3170912547809,0 173.057453169201,-41.3167185676495,0 173.057793809746,-41.3166923787439,0 173.057823314045,-41.3171839226016,0 173.057697250222,-41.317198024215,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.86">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">1046</SimpleData>
+					<SimpleData name="ID">0b3b754d-d4fd-eb11-82e3-024706c78c18</SimpleData>
+					<SimpleData name="Quantity">50</SimpleData>
+					<SimpleData name="Species_Name">Tōtara</SimpleData>
+					<SimpleData name="Species_Scientific">Podocarpus totara</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">July 31, 2021, 3:10 PM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJUfIwxGpvC20RwGNYOpxODXI&quot;,&quot;lat&quot;:-35.585153791675836,&quot;lng&quot;:174.48946180451549,&quot;poly&quot;:[{&quot;lat&quot;:-35.580860985708654,&quot;lng&quot;:174.49102821458018},{&quot;lat&quot;:-35.58204767354706,&quot;lng&quot;:174.4902557383839},{&quot;lat&quot;:-35.58470020630777,&quot;lng&quot;:174.48875370133555},{&quot;lat&quot;:-35.58525862306155,&quot;lng&quot;:174.48944034684337},{&quot;lat&quot;:-35.58571233380654,&quot;lng&quot;:174.49089946854747},{&quot;lat&quot;:-35.58724795109819,&quot;lng&quot;:174.49124279130137},{&quot;lat&quot;:-35.587841249891504,&quot;lng&quot;:174.49145736802257},{&quot;lat&quot;:-35.58770165057095,&quot;lng&quot;:174.4919294368092},{&quot;lat&quot;:-35.58794594922218,&quot;lng&quot;:174.49270191300548},{&quot;lat&quot;:-35.58874863954219,&quot;lng&quot;:174.4902557383839},{&quot;lat&quot;:-35.589690917910225,&quot;lng&quot;:174.48785247910655},{&quot;lat&quot;:-35.5884694438219,&quot;lng&quot;:174.48660793412364},{&quot;lat&quot;:-35.587562051007005,&quot;lng&quot;:174.48626461136973},{&quot;lat&quot;:-35.58672444851196,&quot;lng&quot;:174.48652210343516},{&quot;lat&quot;:-35.586829149303036,&quot;lng&quot;:174.48729457963145},{&quot;lat&quot;:-35.58752715107798,&quot;lng&quot;:174.48772373307384},{&quot;lat&quot;:-35.588434544288404,&quot;lng&quot;:174.48772373307384},{&quot;lat&quot;:-35.588713740130395,&quot;lng&quot;:174.48828163254893},{&quot;lat&quot;:-35.58881843832014,&quot;lng&quot;:174.48871078599132},{&quot;lat&quot;:-35.588539242843254,&quot;lng&quot;:174.4891399394337},{&quot;lat&quot;:-35.58749225113375,&quot;lng&quot;:174.48883953202403},{&quot;lat&quot;:-35.58606134032254,&quot;lng&quot;:174.48815288651622},{&quot;lat&quot;:-35.58539822664152,&quot;lng&quot;:174.48673668015635},{&quot;lat&quot;:-35.58379277077721,&quot;lng&quot;:174.4862216960255},{&quot;lat&quot;:-35.583757869205286,&quot;lng&quot;:174.4865650187794},{&quot;lat&quot;:-35.58494451411672,&quot;lng&quot;:174.48776664841807},{&quot;lat&quot;:-35.58424648982788,&quot;lng&quot;:174.4883674632374},{&quot;lat&quot;:-35.5822570872226,&quot;lng&quot;:174.48995533097423},{&quot;lat&quot;:-35.580616665441454,&quot;lng&quot;:174.4909423838917}],&quot;region&quot;:&quot;Northland&quot;,&quot;district&quot;:&quot;Whangarei District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">104,924</SimpleData>
+					<SimpleData name="Season_Name">2021</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJUfIwxGpvC20RwGNYOpxODXI&quot;,&quot;lat&quot;:-35.585153791675836,&quot;lng&quot;:174.48946180451549,&quot;poly&quot;:[{&quot;lat&quot;:-35.580860985708654,&quot;lng&quot;:174.49102821458018},{&quot;lat&quot;:-35.58204767354706,&quot;lng&quot;:174.4902557383839},{&quot;lat&quot;:-35.58470020630777,&quot;lng&quot;:174.48875370133555},{&quot;lat&quot;:-35.58525862306155,&quot;lng&quot;:174.48944034684337},{&quot;lat&quot;:-35.58571233380654,&quot;lng&quot;:174.49089946854747},{&quot;lat&quot;:-35.58724795109819,&quot;lng&quot;:174.49124279130137},{&quot;lat&quot;:-35.587841249891504,&quot;lng&quot;:174.49145736802257},{&quot;lat&quot;:-35.58770165057095,&quot;lng&quot;:174.4919294368092},{&quot;lat&quot;:-35.58794594922218,&quot;lng&quot;:174.49270191300548},{&quot;lat&quot;:-35.58874863954219,&quot;lng&quot;:174.4902557383839},{&quot;lat&quot;:-35.589690917910225,&quot;lng&quot;:174.48785247910655},{&quot;lat&quot;:-35.5884694438219,&quot;lng&quot;:174.48660793412364},{&quot;lat&quot;:-35.587562051007005,&quot;lng&quot;:174.48626461136973},{&quot;lat&quot;:-35.58672444851196,&quot;lng&quot;:174.48652210343516},{&quot;lat&quot;:-35.586829149303036,&quot;lng&quot;:174.48729457963145},{&quot;lat&quot;:-35.58752715107798,&quot;lng&quot;:174.48772373307384},{&quot;lat&quot;:-35.588434544288404,&quot;lng&quot;:174.48772373307384},{&quot;lat&quot;:-35.588713740130395,&quot;lng&quot;:174.48828163254893},{&quot;lat&quot;:-35.58881843832014,&quot;lng&quot;:174.48871078599132},{&quot;lat&quot;:-35.588539242843254,&quot;lng&quot;:174.4891399394337},{&quot;lat&quot;:-35.58749225113375,&quot;lng&quot;:174.48883953202403},{&quot;lat&quot;:-35.58606134032254,&quot;lng&quot;:174.48815288651622},{&quot;lat&quot;:-35.58539822664152,&quot;lng&quot;:174.48673668015635},{&quot;lat&quot;:-35.58379277077721,&quot;lng&quot;:174.4862216960255},{&quot;lat&quot;:-35.583757869205286,&quot;lng&quot;:174.4865650187794},{&quot;lat&quot;:-35.58494451411672,&quot;lng&quot;:174.48776664841807},{&quot;lat&quot;:-35.58424648982788,&quot;lng&quot;:174.4883674632374},{&quot;lat&quot;:-35.5822570872226,&quot;lng&quot;:174.48995533097423},{&quot;lat&quot;:-35.580616665441454,&quot;lng&quot;:174.4909423838917}],&quot;region&quot;:&quot;Northland&quot;,&quot;district&quot;:&quot;Whangarei District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">171229</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							174.489440346843,-35.5852586230615,0 174.490899468547,-35.5857123338065,0 174.491242791301,-35.5872479510982,0 174.491457368023,-35.5878412498915,0 174.491929436809,-35.5877016505709,0 174.492701913005,-35.5879459492222,0 174.490255738384,-35.5887486395422,0 174.487852479107,-35.5896909179102,0 174.486607934124,-35.5884694438219,0 174.48626461137,-35.587562051007,0 174.486522103435,-35.586724448512,0 174.487294579631,-35.586829149303,0 174.487723733074,-35.587527151078,0 174.487723733074,-35.5884345442884,0 174.488281632549,-35.5887137401304,0 174.488710785991,-35.5888184383201,0 174.489139939434,-35.5885392428433,0 174.488839532024,-35.5874922511337,0 174.488152886516,-35.5860613403225,0 174.486736680156,-35.5853982266415,0 174.486221696025,-35.5837927707772,0 174.486565018779,-35.5837578692053,0 174.487766648418,-35.5849445141167,0 174.488367463237,-35.5842464898279,0 174.489955330974,-35.5822570872226,0 174.490942383892,-35.5806166654415,0 174.49102821458,-35.5808609857087,0 174.490255738384,-35.5820476735471,0 174.488753701336,-35.5847002063078,0 174.489440346843,-35.5852586230615,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.10">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema00">
+					<SimpleData name="fid">982</SimpleData>
+					<SimpleData name="ID">f3ae798b-e1e9-eb11-82e3-024706c78c18</SimpleData>
+					<SimpleData name="Quantity">15</SimpleData>
+					<SimpleData name="Species_Name">Akeake</SimpleData>
+					<SimpleData name="Species_Scientific">Dodonaea viscosa</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">July 21, 2021, 5:07 AM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJ41z9NMKjQG0R7JQv21L2c5k&quot;,&quot;lat&quot;:-40.90891973409252,&quot;lng&quot;:175.03797897438454,&quot;poly&quot;:[{&quot;lat&quot;:-40.90853864238157,&quot;lng&quot;:175.03841349224496},{&quot;lat&quot;:-40.90862783451249,&quot;lng&quot;:175.03775903324532},{&quot;lat&quot;:-40.908887301845645,&quot;lng&quot;:175.03754445652413},{&quot;lat&quot;:-40.909162984771534,&quot;lng&quot;:175.03754982094216},{&quot;lat&quot;:-40.90930082580347,&quot;lng&quot;:175.03807553390908},{&quot;lat&quot;:-40.90917109307549,&quot;lng&quot;:175.03830620388436},{&quot;lat&quot;:-40.90893595185726,&quot;lng&quot;:175.03827401737618},{&quot;lat&quot;:-40.90869270144123,&quot;lng&quot;:175.03837594131875}],&quot;region&quot;:&quot;Wellington&quot;,&quot;district&quot;:&quot;Kapiti Coast District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">105,133</SimpleData>
+					<SimpleData name="Season_Name">2021</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJ41z9NMKjQG0R7JQv21L2c5k&quot;,&quot;lat&quot;:-40.90891973409252,&quot;lng&quot;:175.03797897438454,&quot;poly&quot;:[{&quot;lat&quot;:-40.90853864238157,&quot;lng&quot;:175.03841349224496},{&quot;lat&quot;:-40.90862783451249,&quot;lng&quot;:175.03775903324532},{&quot;lat&quot;:-40.908887301845645,&quot;lng&quot;:175.03754445652413},{&quot;lat&quot;:-40.909162984771534,&quot;lng&quot;:175.03754982094216},{&quot;lat&quot;:-40.90930082580347,&quot;lng&quot;:175.03807553390908},{&quot;lat&quot;:-40.90917109307549,&quot;lng&quot;:175.03830620388436},{&quot;lat&quot;:-40.90893595185726,&quot;lng&quot;:175.03827401737618},{&quot;lat&quot;:-40.90869270144123,&quot;lng&quot;:175.03837594131875}],&quot;region&quot;:&quot;Wellington&quot;,&quot;district&quot;:&quot;Kapiti Coast District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">4362</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							175.037549820942,-40.9091629847715,0 175.037544456524,-40.9088873018456,0 175.037759033245,-40.9086278345125,0 175.038413492245,-40.9085386423816,0 175.038375941319,-40.9086927014412,0 175.038274017376,-40.9089359518573,0 175.038306203884,-40.9091710930755,0 175.038075533909,-40.9093008258035,0 175.037549820942,-40.9091629847715,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.14">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema00">
+					<SimpleData name="fid">405</SimpleData>
+					<SimpleData name="ID">38a1bcc0-5045-ed11-abbe-0242dd29bb30</SimpleData>
+					<SimpleData name="Quantity">100</SimpleData>
+					<SimpleData name="Species_Name">Kahikatea</SimpleData>
+					<SimpleData name="Species_Scientific">Dacrycarpus dacrydioides</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">October 6, 2022, 8:27 AM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJqV854g0saG0RcqgnUP2-_S0&quot;,&quot;lat&quot;:-39.85069300136604,&quot;lng&quot;:176.9660549619214,&quot;poly&quot;:[{&quot;lat&quot;:-39.85004847892267,&quot;lng&quot;:176.96528415170425},{&quot;lat&quot;:-39.85008966283971,&quot;lng&quot;:176.9658152290892},{&quot;lat&quot;:-39.85013908350753,&quot;lng&quot;:176.96638385740036},{&quot;lat&quot;:-39.850608578077356,&quot;lng&quot;:176.96705542588396},{&quot;lat&quot;:-39.85133752380941,&quot;lng&quot;:176.96622394108934},{&quot;lat&quot;:-39.85063328822892,&quot;lng&quot;:176.9654085495488},{&quot;lat&quot;:-39.850472672084734,&quot;lng&quot;:176.96505449795885}],&quot;region&quot;:&quot;Hawke&apos;s Bay&quot;,&quot;district&quot;:&quot;Hastings District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">104,735</SimpleData>
+					<SimpleData name="Season_Name">2022</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJqV854g0saG0RcqgnUP2-_S0&quot;,&quot;lat&quot;:-39.85069300136604,&quot;lng&quot;:176.9660549619214,&quot;poly&quot;:[{&quot;lat&quot;:-39.85004847892267,&quot;lng&quot;:176.96528415170425},{&quot;lat&quot;:-39.85008966283971,&quot;lng&quot;:176.9658152290892},{&quot;lat&quot;:-39.85013908350753,&quot;lng&quot;:176.96638385740036},{&quot;lat&quot;:-39.850608578077356,&quot;lng&quot;:176.96705542588396},{&quot;lat&quot;:-39.85133752380941,&quot;lng&quot;:176.96622394108934},{&quot;lat&quot;:-39.85063328822892,&quot;lng&quot;:176.9654085495488},{&quot;lat&quot;:-39.850472672084734,&quot;lng&quot;:176.96505449795885}],&quot;region&quot;:&quot;Hawke&apos;s Bay&quot;,&quot;district&quot;:&quot;Hastings District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">13262</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							176.967055425884,-39.8506085780774,0 176.966223941089,-39.8513375238094,0 176.965408549549,-39.8506332882289,0 176.965054497959,-39.8504726720847,0 176.965284151704,-39.8500484789227,0 176.965815229089,-39.8500896628397,0 176.9663838574,-39.8501390835075,0 176.967055425884,-39.8506085780774,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.16">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema00">
+					<SimpleData name="fid">611</SimpleData>
+					<SimpleData name="ID">c7ff12c9-afa7-ea11-82e3-024706c78c18</SimpleData>
+					<SimpleData name="Quantity">20</SimpleData>
+					<SimpleData name="Species_Name">Tūmatakuru, Matagouri</SimpleData>
+					<SimpleData name="Species_Scientific">Discaria toumatou</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">February 7, 2019, 3:47 AM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJb_FEr8wnMm0RdH36pUsj2PQ&quot;,&quot;lat&quot;:-43.5958853817929,&quot;lng&quot;:172.7179653745784,&quot;poly&quot;:[{&quot;lat&quot;:-43.595520190818014,&quot;lng&quot;:172.71858228265182},{&quot;lat&quot;:-43.595325938013211,&quot;lng&quot;:172.71780980645553},{&quot;lat&quot;:-43.596258345757448,&quot;lng&quot;:172.71734846650497},{&quot;lat&quot;:-43.59644482557259,&quot;lng&quot;:172.71813167153732}],&quot;region&quot;:&quot;Canterbury&quot;,&quot;district&quot;:&quot;Christchurch City&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">102,025</SimpleData>
+					<SimpleData name="Season_Name">2019</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJb_FEr8wnMm0RdH36pUsj2PQ&quot;,&quot;lat&quot;:-43.5958853817929,&quot;lng&quot;:172.7179653745784,&quot;poly&quot;:[{&quot;lat&quot;:-43.595520190818014,&quot;lng&quot;:172.71858228265182},{&quot;lat&quot;:-43.595325938013211,&quot;lng&quot;:172.71780980645553},{&quot;lat&quot;:-43.596258345757448,&quot;lng&quot;:172.71734846650497},{&quot;lat&quot;:-43.59644482557259,&quot;lng&quot;:172.71813167153732}],&quot;region&quot;:&quot;Canterbury&quot;,&quot;district&quot;:&quot;Christchurch City&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">7258</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							172.718582282652,-43.595520190818,0 172.718131671537,-43.5964448255726,0 172.717348466505,-43.5962583457574,0 172.717809806456,-43.5953259380132,0 172.718582282652,-43.595520190818,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.17">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema0">
+					<SimpleData name="fid">2711</SimpleData>
+					<SimpleData name="ID">72db8581-1acf-e811-81d2-02c97d3ed8b4</SimpleData>
+					<SimpleData name="Quantity">500</SimpleData>
+					<SimpleData name="Species_Name">I don&apos;t know</SimpleData>
+					<SimpleData name="Species_Scientific">I don&apos;t know yet</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">October 13, 2018, 7:02 PM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJFzGN9062C20RgLMdnDYtkJk&quot;,&quot;lat&quot;:-35.189079975872815,&quot;lng&quot;:173.9627301772764,&quot;poly&quot;:[{&quot;lat&quot;:-35.189896514362992,&quot;lng&quot;:173.96158935834524},{&quot;lat&quot;:-35.189953507019489,&quot;lng&quot;:173.96181466390249},{&quot;lat&quot;:-35.189019699224623,&quot;lng&quot;:173.96288754750844},{&quot;lat&quot;:-35.188980242320923,&quot;lng&quot;:173.96345081140157},{&quot;lat&quot;:-35.188861871494879,&quot;lng&quot;:173.96376731206533},{&quot;lat&quot;:-35.1883818102659,&quot;lng&quot;:173.96387099620756},{&quot;lat&quot;:-35.188206444726134,&quot;lng&quot;:173.96374225017485},{&quot;lat&quot;:-35.188346737188233,&quot;lng&quot;:173.96355985996183},{&quot;lat&quot;:-35.188557175427192,&quot;lng&quot;:173.96368860599455},{&quot;lat&quot;:-35.188776381346592,&quot;lng&quot;:173.96360277530607},{&quot;lat&quot;:-35.1888465271159,&quot;lng&quot;:173.96305560466703},{&quot;lat&quot;:-35.188828990679255,&quot;lng&quot;:173.96259426471647},{&quot;lat&quot;:-35.189100805022051,&quot;lng&quot;:173.96247624751982},{&quot;lat&quot;:-35.189372618455565,&quot;lng&quot;:173.96221875545439}],&quot;region&quot;:&quot;Northland&quot;,&quot;district&quot;:&quot;Far North District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">101,746</SimpleData>
+					<SimpleData name="Season_Name">2019</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJFzGN9062C20RgLMdnDYtkJk&quot;,&quot;lat&quot;:-35.189079975872815,&quot;lng&quot;:173.9627301772764,&quot;poly&quot;:[{&quot;lat&quot;:-35.189896514362992,&quot;lng&quot;:173.96158935834524},{&quot;lat&quot;:-35.189953507019489,&quot;lng&quot;:173.96181466390249},{&quot;lat&quot;:-35.189019699224623,&quot;lng&quot;:173.96288754750844},{&quot;lat&quot;:-35.188980242320923,&quot;lng&quot;:173.96345081140157},{&quot;lat&quot;:-35.188861871494879,&quot;lng&quot;:173.96376731206533},{&quot;lat&quot;:-35.1883818102659,&quot;lng&quot;:173.96387099620756},{&quot;lat&quot;:-35.188206444726134,&quot;lng&quot;:173.96374225017485},{&quot;lat&quot;:-35.188346737188233,&quot;lng&quot;:173.96355985996183},{&quot;lat&quot;:-35.188557175427192,&quot;lng&quot;:173.96368860599455},{&quot;lat&quot;:-35.188776381346592,&quot;lng&quot;:173.96360277530607},{&quot;lat&quot;:-35.1888465271159,&quot;lng&quot;:173.96305560466703},{&quot;lat&quot;:-35.188828990679255,&quot;lng&quot;:173.96259426471647},{&quot;lat&quot;:-35.189100805022051,&quot;lng&quot;:173.96247624751982},{&quot;lat&quot;:-35.189372618455565,&quot;lng&quot;:173.96221875545439}],&quot;region&quot;:&quot;Northland&quot;,&quot;district&quot;:&quot;Far North District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">5749</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							173.961589358345,-35.189896514363,0 173.962218755454,-35.1893726184556,0 173.96247624752,-35.189100805022,0 173.962594264716,-35.1888289906792,0 173.963055604667,-35.1888465271159,0 173.963602775306,-35.1887763813466,0 173.963688605995,-35.1885571754272,0 173.963559859962,-35.1883467371882,0 173.963742250175,-35.1882064447261,0 173.963870996208,-35.1883818102659,0 173.963767312065,-35.1888618714949,0 173.963450811402,-35.1889802423209,0 173.962887547508,-35.1890196992246,0 173.961814663902,-35.1899535070195,0 173.961589358345,-35.189896514363,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.24">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">1020</SimpleData>
+					<SimpleData name="ID">5f42a8ba-8ff9-eb11-82e3-024706c78c18</SimpleData>
+					<SimpleData name="Quantity">3,710</SimpleData>
+					<SimpleData name="Species_Name">Unknown tree</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">August 10, 2021, 4:02 AM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJw9AfPl_VZW0RSICdck5pCwg&quot;,&quot;lat&quot;:-38.61848198099462,&quot;lng&quot;:178.14333532172532,&quot;poly&quot;:[{&quot;lat&quot;:-38.6204938159034,&quot;lng&quot;:178.14473007041306},{&quot;lat&quot;:-38.61989027982046,&quot;lng&quot;:178.14558837729783},{&quot;lat&quot;:-38.61871672289828,&quot;lng&quot;:178.1445584090361},{&quot;lat&quot;:-38.618817314244005,&quot;lng&quot;:178.1434426100859},{&quot;lat&quot;:-38.61750961574564,&quot;lng&quot;:178.14284179526658},{&quot;lat&quot;:-38.616470146085845,&quot;lng&quot;:178.142198065103},{&quot;lat&quot;:-38.616973117157045,&quot;lng&quot;:178.1410822661528},{&quot;lat&quot;:-38.61828082543657,&quot;lng&quot;:178.1416401656279},{&quot;lat&quot;:-38.619923809736086,&quot;lng&quot;:178.14138267356248},{&quot;lat&quot;:-38.620192048496776,&quot;lng&quot;:178.14271304923386}],&quot;region&quot;:&quot;Gisborne&quot;,&quot;district&quot;:&quot;Gisborne District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">104,697</SimpleData>
+					<SimpleData name="Season_Name">2021</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJw9AfPl_VZW0RSICdck5pCwg&quot;,&quot;lat&quot;:-38.61848198099462,&quot;lng&quot;:178.14333532172532,&quot;poly&quot;:[{&quot;lat&quot;:-38.6204938159034,&quot;lng&quot;:178.14473007041306},{&quot;lat&quot;:-38.61989027982046,&quot;lng&quot;:178.14558837729783},{&quot;lat&quot;:-38.61871672289828,&quot;lng&quot;:178.1445584090361},{&quot;lat&quot;:-38.618817314244005,&quot;lng&quot;:178.1434426100859},{&quot;lat&quot;:-38.61750961574564,&quot;lng&quot;:178.14284179526658},{&quot;lat&quot;:-38.616470146085845,&quot;lng&quot;:178.142198065103},{&quot;lat&quot;:-38.616973117157045,&quot;lng&quot;:178.1410822661528},{&quot;lat&quot;:-38.61828082543657,&quot;lng&quot;:178.1416401656279},{&quot;lat&quot;:-38.619923809736086,&quot;lng&quot;:178.14138267356248},{&quot;lat&quot;:-38.620192048496776,&quot;lng&quot;:178.14271304923386}],&quot;region&quot;:&quot;Gisborne&quot;,&quot;district&quot;:&quot;Gisborne District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">83461</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							178.142713049234,-38.6201920484968,0 178.141382673562,-38.6199238097361,0 178.141640165628,-38.6182808254366,0 178.141082266153,-38.616973117157,0 178.142198065103,-38.6164701460859,0 178.142841795267,-38.6175096157456,0 178.143442610086,-38.618817314244,0 178.144558409036,-38.6187167228983,0 178.145588377298,-38.6198902798205,0 178.144730070413,-38.6204938159034,0 178.142713049234,-38.6201920484968,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.31">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">644</SimpleData>
+					<SimpleData name="ID">da18713c-15b8-ea11-82e3-024706c78c18</SimpleData>
+					<SimpleData name="Quantity">200</SimpleData>
+					<SimpleData name="Species_Name">Akeake</SimpleData>
+					<SimpleData name="Species_Scientific">Dodonaea viscosa</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">June 27, 2020, 1:26 AM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJJxI-k9bvO20Rl_zOlwyJiOA&quot;,&quot;lat&quot;:-41.254145039568215,&quot;lng&quot;:173.38292235692074,&quot;poly&quot;:[{&quot;lat&quot;:-41.254312408357443,&quot;lng&quot;:173.38210160096219},{&quot;lat&quot;:-41.2541551244132,&quot;lng&quot;:173.38315839131405},{&quot;lat&quot;:-41.253646973697485,&quot;lng&quot;:173.38301891644528},{&quot;lat&quot;:-41.253570347452943,&quot;lng&quot;:173.38353390057614},{&quot;lat&quot;:-41.254401132466619,&quot;lng&quot;:173.3837431128793},{&quot;lat&quot;:-41.254719731683494,&quot;lng&quot;:173.38213378747037}],&quot;region&quot;:&quot;Nelson&quot;,&quot;district&quot;:&quot;Nelson City&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">102,388</SimpleData>
+					<SimpleData name="Season_Name">2020</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJJxI-k9bvO20Rl_zOlwyJiOA&quot;,&quot;lat&quot;:-41.254145039568215,&quot;lng&quot;:173.38292235692074,&quot;poly&quot;:[{&quot;lat&quot;:-41.254312408357443,&quot;lng&quot;:173.38210160096219},{&quot;lat&quot;:-41.2541551244132,&quot;lng&quot;:173.38315839131405},{&quot;lat&quot;:-41.253646973697485,&quot;lng&quot;:173.38301891644528},{&quot;lat&quot;:-41.253570347452943,&quot;lng&quot;:173.38353390057614},{&quot;lat&quot;:-41.254401132466619,&quot;lng&quot;:173.3837431128793},{&quot;lat&quot;:-41.254719731683494,&quot;lng&quot;:173.38213378747037}],&quot;region&quot;:&quot;Nelson&quot;,&quot;district&quot;:&quot;Nelson City&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">8025</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							173.383743112879,-41.2544011324666,0 173.38213378747,-41.2547197316835,0 173.382101600962,-41.2543124083574,0 173.383158391314,-41.2541551244132,0 173.383018916445,-41.2536469736975,0 173.383533900576,-41.2535703474529,0 173.383743112879,-41.2544011324666,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.33">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">1488</SimpleData>
+					<SimpleData name="ID">cbd9ab94-97fd-e811-81d2-02c97d3ed8b4</SimpleData>
+					<SimpleData name="Quantity">1,600</SimpleData>
+					<SimpleData name="Species_Name">I don&apos;t know</SimpleData>
+					<SimpleData name="Species_Scientific">I don&apos;t know yet</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">December 11, 2018, 10:53 PM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJG8iVaWNUP20RJ3ZR1HDAU6M&quot;,&quot;lat&quot;:-41.122993914951962,&quot;lng&quot;:174.86906056581404,&quot;poly&quot;:[{&quot;lat&quot;:-41.122521116373022,&quot;lng&quot;:174.86902837930586},{&quot;lat&quot;:-41.12254940366519,&quot;lng&quot;:174.86917858301069},{&quot;lat&quot;:-41.122707004069746,&quot;lng&quot;:174.86914103208449},{&quot;lat&quot;:-41.122783783616924,&quot;lng&quot;:174.86911957441237},{&quot;lat&quot;:-41.122921178371868,&quot;lng&quot;:174.86922686277296},{&quot;lat&quot;:-41.123220213020652,&quot;lng&quot;:174.86930732904341},{&quot;lat&quot;:-41.1233010329621,&quot;lng&quot;:174.86935560880568},{&quot;lat&quot;:-41.12346671353091,&quot;lng&quot;:174.86906593023207},{&quot;lat&quot;:-41.1229858346276,&quot;lng&quot;:174.8687655228224},{&quot;lat&quot;:-41.122763578481639,&quot;lng&quot;:174.86903374372389}],&quot;region&quot;:&quot;Wellington&quot;,&quot;district&quot;:&quot;Kapiti&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">101,904</SimpleData>
+					<SimpleData name="Season_Name">2019</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJG8iVaWNUP20RJ3ZR1HDAU6M&quot;,&quot;lat&quot;:-41.122993914951962,&quot;lng&quot;:174.86906056581404,&quot;poly&quot;:[{&quot;lat&quot;:-41.122521116373022,&quot;lng&quot;:174.86902837930586},{&quot;lat&quot;:-41.12254940366519,&quot;lng&quot;:174.86917858301069},{&quot;lat&quot;:-41.122707004069746,&quot;lng&quot;:174.86914103208449},{&quot;lat&quot;:-41.122783783616924,&quot;lng&quot;:174.86911957441237},{&quot;lat&quot;:-41.122921178371868,&quot;lng&quot;:174.86922686277296},{&quot;lat&quot;:-41.123220213020652,&quot;lng&quot;:174.86930732904341},{&quot;lat&quot;:-41.1233010329621,&quot;lng&quot;:174.86935560880568},{&quot;lat&quot;:-41.12346671353091,&quot;lng&quot;:174.86906593023207},{&quot;lat&quot;:-41.1229858346276,&quot;lng&quot;:174.8687655228224},{&quot;lat&quot;:-41.122763578481639,&quot;lng&quot;:174.86903374372389}],&quot;region&quot;:&quot;Wellington&quot;,&quot;district&quot;:&quot;Kapiti&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">2414</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							174.869028379306,-41.122521116373,0 174.869178583011,-41.1225494036652,0 174.869141032084,-41.1227070040697,0 174.869119574412,-41.1227837836169,0 174.869226862773,-41.1229211783719,0 174.869307329043,-41.1232202130207,0 174.869355608806,-41.1233010329621,0 174.869065930232,-41.1234667135309,0 174.868765522822,-41.1229858346276,0 174.869033743724,-41.1227635784816,0 174.869028379306,-41.122521116373,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.35">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">2734</SimpleData>
+					<SimpleData name="ID">5f797aac-a074-e911-81d2-02c97d3ed8b4</SimpleData>
+					<SimpleData name="Quantity">250</SimpleData>
+					<SimpleData name="Species_Name">I don&apos;t know</SimpleData>
+					<SimpleData name="Species_Scientific">I don&apos;t know yet</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">May 12, 2019, 10:28 AM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJ9SeX_W1VR20RAR89k7udfOQ&quot;,&quot;lat&quot;:-41.200238107111929,&quot;lng&quot;:174.95532871357796,&quot;poly&quot;:[{&quot;lat&quot;:-41.199386457640635,&quot;lng&quot;:174.95537699334022},{&quot;lat&quot;:-41.199588272626514,&quot;lng&quot;:174.95531262032387},{&quot;lat&quot;:-41.199749724167162,&quot;lng&quot;:174.95533407799599},{&quot;lat&quot;:-41.201049394561807,&quot;lng&quot;:174.95489419571754},{&quot;lat&quot;:-41.201089756583215,&quot;lng&quot;:174.95513023011085},{&quot;lat&quot;:-41.1997900869901,&quot;lng&quot;:174.95558084122536},{&quot;lat&quot;:-41.199628635549018,&quot;lng&quot;:174.95570958725807},{&quot;lat&quot;:-41.199459111107238,&quot;lng&quot;:174.95576323143837}],&quot;region&quot;:&quot;Wellington&quot;,&quot;district&quot;:&quot;Lower Hutt City&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">102,387</SimpleData>
+					<SimpleData name="Season_Name">2019</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJ9SeX_W1VR20RAR89k7udfOQ&quot;,&quot;lat&quot;:-41.200238107111929,&quot;lng&quot;:174.95532871357796,&quot;poly&quot;:[{&quot;lat&quot;:-41.199386457640635,&quot;lng&quot;:174.95537699334022},{&quot;lat&quot;:-41.199588272626514,&quot;lng&quot;:174.95531262032387},{&quot;lat&quot;:-41.199749724167162,&quot;lng&quot;:174.95533407799599},{&quot;lat&quot;:-41.201049394561807,&quot;lng&quot;:174.95489419571754},{&quot;lat&quot;:-41.201089756583215,&quot;lng&quot;:174.95513023011085},{&quot;lat&quot;:-41.1997900869901,&quot;lng&quot;:174.95558084122536},{&quot;lat&quot;:-41.199628635549018,&quot;lng&quot;:174.95570958725807},{&quot;lat&quot;:-41.199459111107238,&quot;lng&quot;:174.95576323143837}],&quot;region&quot;:&quot;Wellington&quot;,&quot;district&quot;:&quot;Lower Hutt City&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">4303</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							174.95537699334,-41.1993864576406,0 174.955763231438,-41.1994591111072,0 174.955709587258,-41.199628635549,0 174.955580841225,-41.1997900869901,0 174.955130230111,-41.2010897565832,0 174.954894195718,-41.2010493945618,0 174.955334077996,-41.1997497241672,0 174.955312620324,-41.1995882726265,0 174.95537699334,-41.1993864576406,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.37">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">2728</SimpleData>
+					<SimpleData name="ID">1707d717-0061-e911-81d2-02c97d3ed8b4</SimpleData>
+					<SimpleData name="Quantity">500</SimpleData>
+					<SimpleData name="Species_Name">I don&apos;t know</SimpleData>
+					<SimpleData name="Species_Scientific">I don&apos;t know yet</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">April 17, 2019, 11:01 AM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJf4tMUGmpLqgRe01cSBCxMdo&quot;,&quot;lat&quot;:-45.9004652251034,&quot;lng&quot;:170.45640553694193,&quot;poly&quot;:[{&quot;lat&quot;:-45.900054581771805,&quot;lng&quot;:170.45521463613932},{&quot;lat&quot;:-45.899875389635454,&quot;lng&quot;:170.45759643774454},{&quot;lat&quot;:-45.901055060571345,&quot;lng&quot;:170.45742477636759},{&quot;lat&quot;:-45.901040128184476,&quot;lng&quot;:170.45568670492594}],&quot;region&quot;:&quot;Otago&quot;,&quot;district&quot;:&quot;Dunedin City&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">102,301</SimpleData>
+					<SimpleData name="Season_Name">2019</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJf4tMUGmpLqgRe01cSBCxMdo&quot;,&quot;lat&quot;:-45.9004652251034,&quot;lng&quot;:170.45640553694193,&quot;poly&quot;:[{&quot;lat&quot;:-45.900054581771805,&quot;lng&quot;:170.45521463613932},{&quot;lat&quot;:-45.899875389635454,&quot;lng&quot;:170.45759643774454},{&quot;lat&quot;:-45.901055060571345,&quot;lng&quot;:170.45742477636759},{&quot;lat&quot;:-45.901040128184476,&quot;lng&quot;:170.45568670492594}],&quot;region&quot;:&quot;Otago&quot;,&quot;district&quot;:&quot;Dunedin City&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">19342</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							170.455214636139,-45.90005458177179,0 170.457596437745,-45.8998753896355,0 170.457424776368,-45.9010550605713,0 170.455686704926,-45.9010401281845,0 170.455214636139,-45.90005458177179,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.49">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">951</SimpleData>
+					<SimpleData name="ID">585903ea-7fd9-eb11-82e3-024706c78c18</SimpleData>
+					<SimpleData name="Quantity">10</SimpleData>
+					<SimpleData name="Species_Name">Titoki</SimpleData>
+					<SimpleData name="Species_Scientific">Alectryon excelsus</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">June 30, 2021, 8:48 AM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJr0U0QxvEbW0RV6kjVgDq-0E&quot;,&quot;lat&quot;:-37.669010330340846,&quot;lng&quot;:176.0175576549392,&quot;poly&quot;:[{&quot;lat&quot;:-37.66870035573426,&quot;lng&quot;:176.0164569178031},{&quot;lat&quot;:-37.66873007944487,&quot;lng&quot;:176.01656957058174},{&quot;lat&quot;:-37.668768295626734,&quot;lng&quot;:176.01673586754066},{&quot;lat&quot;:-37.66878528059013,&quot;lng&quot;:176.01690216449958},{&quot;lat&quot;:-37.668831989219434,&quot;lng&quot;:176.01710601238472},{&quot;lat&quot;:-37.66881925050526,&quot;lng&quot;:176.01734741119606},{&quot;lat&quot;:-37.668831989219434,&quot;lng&quot;:176.017557944037},{&quot;lat&quot;:-37.6689381450858,&quot;lng&quot;:176.01764377472549},{&quot;lat&quot;:-37.66901033098819,&quot;lng&quot;:176.01785835144668},{&quot;lat&quot;:-37.669027315896194,&quot;lng&quot;:176.0180621993318},{&quot;lat&quot;:-37.66904005457465,&quot;lng&quot;:176.01830896256118},{&quot;lat&quot;:-37.66901457721555,&quot;lng&quot;:176.01870592949538},{&quot;lat&quot;:-37.66932030494743,&quot;lng&quot;:176.01815339443831},{&quot;lat&quot;:-37.66920313149933,&quot;lng&quot;:176.01824401134917},{&quot;lat&quot;:-37.66920313149933,&quot;lng&quot;:176.01809380764433},{&quot;lat&quot;:-37.66913519200492,&quot;lng&quot;:176.01786850208708},{&quot;lat&quot;:-37.66905451377454,&quot;lng&quot;:176.01760564560362},{&quot;lat&quot;:-37.66891438821859,&quot;lng&quot;:176.01745007748076},{&quot;lat&quot;:-37.66891863445145,&quot;lng&quot;:176.01719258541533},{&quot;lat&quot;:-37.6688846645818,&quot;lng&quot;:176.0169887375302},{&quot;lat&quot;:-37.668880418347,&quot;lng&quot;:176.01676879639098},{&quot;lat&quot;:-37.668825217272506,&quot;lng&quot;:176.0165220331616},{&quot;lat&quot;:-37.668812478557186,&quot;lng&quot;:176.01640938038298}],&quot;region&quot;:&quot;Bay of Plenty&quot;,&quot;district&quot;:&quot;Western Bay of Plenty District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">104,867</SimpleData>
+					<SimpleData name="Season_Name">2021</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJr0U0QxvEbW0RV6kjVgDq-0E&quot;,&quot;lat&quot;:-37.669010330340846,&quot;lng&quot;:176.0175576549392,&quot;poly&quot;:[{&quot;lat&quot;:-37.66870035573426,&quot;lng&quot;:176.0164569178031},{&quot;lat&quot;:-37.66873007944487,&quot;lng&quot;:176.01656957058174},{&quot;lat&quot;:-37.668768295626734,&quot;lng&quot;:176.01673586754066},{&quot;lat&quot;:-37.66878528059013,&quot;lng&quot;:176.01690216449958},{&quot;lat&quot;:-37.668831989219434,&quot;lng&quot;:176.01710601238472},{&quot;lat&quot;:-37.66881925050526,&quot;lng&quot;:176.01734741119606},{&quot;lat&quot;:-37.668831989219434,&quot;lng&quot;:176.017557944037},{&quot;lat&quot;:-37.6689381450858,&quot;lng&quot;:176.01764377472549},{&quot;lat&quot;:-37.66901033098819,&quot;lng&quot;:176.01785835144668},{&quot;lat&quot;:-37.669027315896194,&quot;lng&quot;:176.0180621993318},{&quot;lat&quot;:-37.66904005457465,&quot;lng&quot;:176.01830896256118},{&quot;lat&quot;:-37.66901457721555,&quot;lng&quot;:176.01870592949538},{&quot;lat&quot;:-37.66932030494743,&quot;lng&quot;:176.01815339443831},{&quot;lat&quot;:-37.66920313149933,&quot;lng&quot;:176.01824401134917},{&quot;lat&quot;:-37.66920313149933,&quot;lng&quot;:176.01809380764433},{&quot;lat&quot;:-37.66913519200492,&quot;lng&quot;:176.01786850208708},{&quot;lat&quot;:-37.66905451377454,&quot;lng&quot;:176.01760564560362},{&quot;lat&quot;:-37.66891438821859,&quot;lng&quot;:176.01745007748076},{&quot;lat&quot;:-37.66891863445145,&quot;lng&quot;:176.01719258541533},{&quot;lat&quot;:-37.6688846645818,&quot;lng&quot;:176.0169887375302},{&quot;lat&quot;:-37.668880418347,&quot;lng&quot;:176.01676879639098},{&quot;lat&quot;:-37.668825217272506,&quot;lng&quot;:176.0165220331616},{&quot;lat&quot;:-37.668812478557186,&quot;lng&quot;:176.01640938038298}],&quot;region&quot;:&quot;Bay of Plenty&quot;,&quot;district&quot;:&quot;Western Bay of Plenty District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">2630</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							176.017106012385,-37.6688319892194,0 176.017347411196,-37.6688192505053,0 176.017557944037,-37.6688319892194,0 176.017643774726,-37.6689381450858,0 176.017858351447,-37.6690103309882,0 176.018062199332,-37.6690273158962,0 176.018308962561,-37.6690400545746,0 176.018705929495,-37.6690145772155,0 176.018153394438,-37.6693203049474,0 176.018244011349,-37.6692031314993,0 176.018093807644,-37.6692031314993,0 176.017868502087,-37.6691351920049,0 176.017605645604,-37.6690545137745,0 176.017450077481,-37.6689143882186,0 176.017192585415,-37.6689186344515,0 176.01698873753,-37.6688846645818,0 176.016768796391,-37.668880418347,0 176.016522033162,-37.6688252172725,0 176.016409380383,-37.6688124785572,0 176.016456917803,-37.6687003557343,0 176.016569570582,-37.6687300794449,0 176.016735867541,-37.6687682956267,0 176.0169021645,-37.6687852805901,0 176.017106012385,-37.6688319892194,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.50">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">1484</SimpleData>
+					<SimpleData name="ID">30b22817-f8d0-e811-81d2-02c97d3ed8b4</SimpleData>
+					<SimpleData name="Quantity">1,200</SimpleData>
+					<SimpleData name="Species_Name">I don&apos;t know</SimpleData>
+					<SimpleData name="Species_Scientific">I don&apos;t know yet</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">October 16, 2018, 4:01 AM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJC0QjviqPPG0RTIszaDL6gt8&quot;,&quot;lat&quot;:-40.857738551975679,&quot;lng&quot;:172.81916176339018,&quot;poly&quot;:[{&quot;lat&quot;:-40.858440468750949,&quot;lng&quot;:172.82041703720915},{&quot;lat&quot;:-40.856776971033348,&quot;lng&quot;:172.81813179512847},{&quot;lat&quot;:-40.857060985796011,&quot;lng&quot;:172.81790648957121},{&quot;lat&quot;:-40.858018512308519,&quot;lng&quot;:172.81903301735747},{&quot;lat&quot;:-40.85870013291801,&quot;lng&quot;:172.82041703720915}],&quot;region&quot;:&quot;Tasman&quot;,&quot;district&quot;:&quot;Tasman District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">101,758</SimpleData>
+					<SimpleData name="Season_Name">2019</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJC0QjviqPPG0RTIszaDL6gt8&quot;,&quot;lat&quot;:-40.857738551975679,&quot;lng&quot;:172.81916176339018,&quot;poly&quot;:[{&quot;lat&quot;:-40.858440468750949,&quot;lng&quot;:172.82041703720915},{&quot;lat&quot;:-40.856776971033348,&quot;lng&quot;:172.81813179512847},{&quot;lat&quot;:-40.857060985796011,&quot;lng&quot;:172.81790648957121},{&quot;lat&quot;:-40.858018512308519,&quot;lng&quot;:172.81903301735747},{&quot;lat&quot;:-40.85870013291801,&quot;lng&quot;:172.82041703720915}],&quot;region&quot;:&quot;Tasman&quot;,&quot;district&quot;:&quot;Tasman District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">10455</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							172.820417037209,-40.8584404687509,0 172.820417037209,-40.858700132918,0 172.819033017357,-40.8580185123085,0 172.817906489571,-40.857060985796,0 172.818131795128,-40.8567769710334,0 172.820417037209,-40.8584404687509,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.53">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">2736</SimpleData>
+					<SimpleData name="ID">bc83d831-5083-e911-81d2-02c97d3ed8b4</SimpleData>
+					<SimpleData name="Quantity">50</SimpleData>
+					<SimpleData name="Species_Name">Kānuka</SimpleData>
+					<SimpleData name="Species_Scientific">Kunzea ericoides</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">December 4, 2018, 1:04 AM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJAQtNm9glbW0RcIkUA_6FIcw&quot;,&quot;lat&quot;:-37.792859391707438,&quot;lng&quot;:175.13600088778844,&quot;poly&quot;:[{&quot;lat&quot;:-37.792965371527778,&quot;lng&quot;:175.13558782760015},{&quot;lat&quot;:-37.793346891832456,&quot;lng&quot;:175.13639249030462},{&quot;lat&quot;:-37.792999284523518,&quot;lng&quot;:175.13641394797673},{&quot;lat&quot;:-37.792812762854282,&quot;lng&quot;:175.13619937125554},{&quot;lat&quot;:-37.79277037150014,&quot;lng&quot;:175.13584531966558},{&quot;lat&quot;:-37.792439718103161,&quot;lng&quot;:175.13596333686223},{&quot;lat&quot;:-37.792371891582413,&quot;lng&quot;:175.1357594889771}],&quot;region&quot;:&quot;Waikato&quot;,&quot;district&quot;:&quot;Waikato District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">101,879</SimpleData>
+					<SimpleData name="Season_Name">2019</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJAQtNm9glbW0RcIkUA_6FIcw&quot;,&quot;lat&quot;:-37.792859391707438,&quot;lng&quot;:175.13600088778844,&quot;poly&quot;:[{&quot;lat&quot;:-37.792965371527778,&quot;lng&quot;:175.13558782760015},{&quot;lat&quot;:-37.793346891832456,&quot;lng&quot;:175.13639249030462},{&quot;lat&quot;:-37.792999284523518,&quot;lng&quot;:175.13641394797673},{&quot;lat&quot;:-37.792812762854282,&quot;lng&quot;:175.13619937125554},{&quot;lat&quot;:-37.79277037150014,&quot;lng&quot;:175.13584531966558},{&quot;lat&quot;:-37.792439718103161,&quot;lng&quot;:175.13596333686223},{&quot;lat&quot;:-37.792371891582413,&quot;lng&quot;:175.1357594889771}],&quot;region&quot;:&quot;Waikato&quot;,&quot;district&quot;:&quot;Waikato District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">3468</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							175.1355878276,-37.7929653715278,0 175.135759488977,-37.7923718915824,0 175.135963336862,-37.7924397181032,0 175.135845319666,-37.7927703715001,0 175.136199371256,-37.7928127628543,0 175.136413947977,-37.7929992845235,0 175.136392490305,-37.7933468918325,0 175.1355878276,-37.7929653715278,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.55">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">272</SimpleData>
+					<SimpleData name="ID">3dfd5952-5cc0-427b-957f-56448258bca3</SimpleData>
+					<SimpleData name="Quantity">500</SimpleData>
+					<SimpleData name="Species_Name">Mānuka</SimpleData>
+					<SimpleData name="Species_Scientific">Leptospermum scoparium</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">November 14, 2023, 7:24 PM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJAcptJJKocm0RCY8cCizNvTc&quot;,&quot;lat&quot;:-37.142022744353596,&quot;lng&quot;:175.08823830683997,&quot;poly&quot;:[{&quot;lat&quot;:-37.14135351918449,&quot;lng&quot;:175.08806932767203},{&quot;lat&quot;:-37.14211896173394,&quot;lng&quot;:175.08819807370475},{&quot;lat&quot;:-37.14269196952271,&quot;lng&quot;:175.08785475095084},{&quot;lat&quot;:-37.14268769336125,&quot;lng&quot;:175.08818198045066},{&quot;lat&quot;:-37.1424396755834,&quot;lng&quot;:175.08837509949973},{&quot;lat&quot;:-37.14221731412567,&quot;lng&quot;:175.08825708230307},{&quot;lat&quot;:-37.14219165699234,&quot;lng&quot;:175.0885145743685},{&quot;lat&quot;:-37.14197784720942,&quot;lng&quot;:175.0886218627291},{&quot;lat&quot;:-37.14200350441527,&quot;lng&quot;:175.08836437066367},{&quot;lat&quot;:-37.14174693196505,&quot;lng&quot;:175.08839655717185},{&quot;lat&quot;:-37.14141338647873,&quot;lng&quot;:175.088246353467}],&quot;region&quot;:&quot;Auckland&quot;,&quot;district&quot;:&quot;Auckland&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">104,998</SimpleData>
+					<SimpleData name="Season_Name">2022</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJAcptJJKocm0RCY8cCizNvTc&quot;,&quot;lat&quot;:-37.142022744353596,&quot;lng&quot;:175.08823830683997,&quot;poly&quot;:[{&quot;lat&quot;:-37.14135351918449,&quot;lng&quot;:175.08806932767203},{&quot;lat&quot;:-37.14211896173394,&quot;lng&quot;:175.08819807370475},{&quot;lat&quot;:-37.14269196952271,&quot;lng&quot;:175.08785475095084},{&quot;lat&quot;:-37.14268769336125,&quot;lng&quot;:175.08818198045066},{&quot;lat&quot;:-37.1424396755834,&quot;lng&quot;:175.08837509949973},{&quot;lat&quot;:-37.14221731412567,&quot;lng&quot;:175.08825708230307},{&quot;lat&quot;:-37.14219165699234,&quot;lng&quot;:175.0885145743685},{&quot;lat&quot;:-37.14197784720942,&quot;lng&quot;:175.0886218627291},{&quot;lat&quot;:-37.14200350441527,&quot;lng&quot;:175.08836437066367},{&quot;lat&quot;:-37.14174693196505,&quot;lng&quot;:175.08839655717185},{&quot;lat&quot;:-37.14141338647873,&quot;lng&quot;:175.088246353467}],&quot;region&quot;:&quot;Auckland&quot;,&quot;district&quot;:&quot;Auckland&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">3500</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							175.088069327672,-37.1413535191845,0 175.088246353467,-37.1414133864787,0 175.088396557172,-37.1417469319651,0 175.088364370664,-37.1420035044153,0 175.088621862729,-37.1419778472094,0 175.088514574369,-37.1421916569923,0 175.088257082303,-37.1422173141257,0 175.0883750995,-37.1424396755834,0 175.088181980451,-37.1426876933613,0 175.087854750951,-37.1426919695227,0 175.088198073705,-37.1421189617339,0 175.088069327672,-37.1413535191845,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.57">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">1376</SimpleData>
+					<SimpleData name="ID">98ed4ce2-f80d-ed11-ab22-027b907f4726</SimpleData>
+					<SimpleData name="Quantity">164</SimpleData>
+					<SimpleData name="Species_Name">Horoeka, Lancewood</SimpleData>
+					<SimpleData name="Species_Scientific">Pseudopanax crassifolius</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">July 27, 2022, 10:10 PM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;GhIJePJEa6C4Q8AR1Xoai8EUZkA&quot;,&quot;lat&quot;:-39.44239563746362,&quot;lng&quot;:176.64862588633275,&quot;poly&quot;:[{&quot;lat&quot;:-39.44160634023624,&quot;lng&quot;:176.64927320918},{&quot;lat&quot;:-39.44163148203973,&quot;lng&quot;:176.64797856348554},{&quot;lat&quot;:-39.443184934691004,&quot;lng&quot;:176.6480871940633},{&quot;lat&quot;:-39.442803805399706,&quot;lng&quot;:176.64926736602985}],&quot;region&quot;:&quot;Hawke&apos;s Bay&quot;,&quot;district&quot;:&quot;Hastings District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">104,997</SimpleData>
+					<SimpleData name="Season_Name">2022</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;GhIJePJEa6C4Q8AR1Xoai8EUZkA&quot;,&quot;lat&quot;:-39.44239563746362,&quot;lng&quot;:176.64862588633275,&quot;poly&quot;:[{&quot;lat&quot;:-39.44160634023624,&quot;lng&quot;:176.64927320918},{&quot;lat&quot;:-39.44163148203973,&quot;lng&quot;:176.64797856348554},{&quot;lat&quot;:-39.443184934691004,&quot;lng&quot;:176.6480871940633},{&quot;lat&quot;:-39.442803805399706,&quot;lng&quot;:176.64926736602985}],&quot;region&quot;:&quot;Hawke&apos;s Bay&quot;,&quot;district&quot;:&quot;Hastings District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">16367</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							176.64927320918,-39.4416063402362,0 176.64926736603,-39.4428038053997,0 176.648087194063,-39.443184934691,0 176.647978563486,-39.4416314820397,0 176.64927320918,-39.4416063402362,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.68">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">2713</SimpleData>
+					<SimpleData name="ID">4fe2a9b9-53f7-e811-81d2-02c97d3ed8b4</SimpleData>
+					<SimpleData name="Quantity">150</SimpleData>
+					<SimpleData name="Species_Name">I don&apos;t know</SimpleData>
+					<SimpleData name="Species_Scientific">I don&apos;t know yet</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">December 3, 2018, 11:32 PM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJq8kitbedDG0RBajOUpZT4X8&quot;,&quot;lat&quot;:-35.824830630506057,&quot;lng&quot;:174.49979610615139,&quot;poly&quot;:[{&quot;lat&quot;:-35.824724067451257,&quot;lng&quot;:174.49977464847927},{&quot;lat&quot;:-35.825054631110447,&quot;lng&quot;:174.49999995403653},{&quot;lat&quot;:-35.825076378671326,&quot;lng&quot;:174.49959225826626},{&quot;lat&quot;:-35.82458488234078,&quot;lng&quot;:174.49964590244656}],&quot;region&quot;:&quot;Northland&quot;,&quot;district&quot;:&quot;Whangarei District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">101,875</SimpleData>
+					<SimpleData name="Season_Name">2019</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJq8kitbedDG0RBajOUpZT4X8&quot;,&quot;lat&quot;:-35.824830630506057,&quot;lng&quot;:174.49979610615139,&quot;poly&quot;:[{&quot;lat&quot;:-35.824724067451257,&quot;lng&quot;:174.49977464847927},{&quot;lat&quot;:-35.825054631110447,&quot;lng&quot;:174.49999995403653},{&quot;lat&quot;:-35.825076378671326,&quot;lng&quot;:174.49959225826626},{&quot;lat&quot;:-35.82458488234078,&quot;lng&quot;:174.49964590244656}],&quot;region&quot;:&quot;Northland&quot;,&quot;district&quot;:&quot;Whangarei District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">1055</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							174.499774648479,-35.8247240674512,0 174.499999954037,-35.8250546311105,0 174.499592258266,-35.8250763786713,0 174.499645902447,-35.8245848823408,0 174.499774648479,-35.8247240674512,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.72">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">859</SimpleData>
+					<SimpleData name="ID">fa8d83e9-997c-eb11-82e3-024706c78c18</SimpleData>
+					<SimpleData name="Quantity">600</SimpleData>
+					<SimpleData name="Species_Name">Ti Kouka, Cabbage tree</SimpleData>
+					<SimpleData name="Species_Scientific">Cordyline australis</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">March 4, 2021, 3:30 AM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJ0cSf4YcrZG0RxVJjboSHY4I&quot;,&quot;lat&quot;:-38.556983792863775,&quot;lng&quot;:178.21821259464866,&quot;poly&quot;:[{&quot;lat&quot;:-38.556203542156,&quot;lng&quot;:178.217552771231},{&quot;lat&quot;:-38.555943454195322,&quot;lng&quot;:178.21808921303398},{&quot;lat&quot;:-38.556195152236469,&quot;lng&quot;:178.21980582680351},{&quot;lat&quot;:-38.556354560540044,&quot;lng&quot;:178.220074047705},{&quot;lat&quot;:-38.556706935535686,&quot;lng&quot;:178.21904407944328},{&quot;lat&quot;:-38.557168376370328,&quot;lng&quot;:178.21846472229606},{&quot;lat&quot;:-38.557453629222927,&quot;lng&quot;:178.21738110985405},{&quot;lat&quot;:-38.558024131532221,&quot;lng&quot;:178.21668373551017},{&quot;lat&quot;:-38.557403290566491,&quot;lng&quot;:178.21635114159233},{&quot;lat&quot;:-38.557285833564372,&quot;lng&quot;:178.21647988762504},{&quot;lat&quot;:-38.55772210146192,&quot;lng&quot;:178.21669446434623},{&quot;lat&quot;:-38.557713711719629,&quot;lng&quot;:178.21691976990348},{&quot;lat&quot;:-38.557470408767244,&quot;lng&quot;:178.21703778710014},{&quot;lat&quot;:-38.55711803751413,&quot;lng&quot;:178.21698414291984},{&quot;lat&quot;:-38.557059308804014,&quot;lng&quot;:178.21711288895256},{&quot;lat&quot;:-38.557126427325947,&quot;lng&quot;:178.2174991270507},{&quot;lat&quot;:-38.557067698622681,&quot;lng&quot;:178.21775661911613},{&quot;lat&quot;:-38.556824393483723,&quot;lng&quot;:178.21791755165702},{&quot;lat&quot;:-38.556623036883877,&quot;lng&quot;:178.21787463631279}],&quot;region&quot;:&quot;Gisborne&quot;,&quot;district&quot;:&quot;Gisborne District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">104,320</SimpleData>
+					<SimpleData name="Season_Name">2020</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJ0cSf4YcrZG0RxVJjboSHY4I&quot;,&quot;lat&quot;:-38.556983792863775,&quot;lng&quot;:178.21821259464866,&quot;poly&quot;:[{&quot;lat&quot;:-38.556203542156,&quot;lng&quot;:178.217552771231},{&quot;lat&quot;:-38.555943454195322,&quot;lng&quot;:178.21808921303398},{&quot;lat&quot;:-38.556195152236469,&quot;lng&quot;:178.21980582680351},{&quot;lat&quot;:-38.556354560540044,&quot;lng&quot;:178.220074047705},{&quot;lat&quot;:-38.556706935535686,&quot;lng&quot;:178.21904407944328},{&quot;lat&quot;:-38.557168376370328,&quot;lng&quot;:178.21846472229606},{&quot;lat&quot;:-38.557453629222927,&quot;lng&quot;:178.21738110985405},{&quot;lat&quot;:-38.558024131532221,&quot;lng&quot;:178.21668373551017},{&quot;lat&quot;:-38.557403290566491,&quot;lng&quot;:178.21635114159233},{&quot;lat&quot;:-38.557285833564372,&quot;lng&quot;:178.21647988762504},{&quot;lat&quot;:-38.55772210146192,&quot;lng&quot;:178.21669446434623},{&quot;lat&quot;:-38.557713711719629,&quot;lng&quot;:178.21691976990348},{&quot;lat&quot;:-38.557470408767244,&quot;lng&quot;:178.21703778710014},{&quot;lat&quot;:-38.55711803751413,&quot;lng&quot;:178.21698414291984},{&quot;lat&quot;:-38.557059308804014,&quot;lng&quot;:178.21711288895256},{&quot;lat&quot;:-38.557126427325947,&quot;lng&quot;:178.2174991270507},{&quot;lat&quot;:-38.557067698622681,&quot;lng&quot;:178.21775661911613},{&quot;lat&quot;:-38.556824393483723,&quot;lng&quot;:178.21791755165702},{&quot;lat&quot;:-38.556623036883877,&quot;lng&quot;:178.21787463631279}],&quot;region&quot;:&quot;Gisborne&quot;,&quot;district&quot;:&quot;Gisborne District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">21546</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							178.220074047705,-38.55635456054,0 178.219044079443,-38.5567069355357,0 178.218464722296,-38.5571683763703,0 178.217381109854,-38.5574536292229,0 178.21668373551,-38.5580241315322,0 178.216351141592,-38.5574032905665,0 178.216479887625,-38.5572858335644,0 178.216694464346,-38.5577221014619,0 178.216919769903,-38.5577137117196,0 178.2170377871,-38.5574704087672,0 178.21698414292,-38.5571180375141,0 178.217112888953,-38.557059308804,0 178.217499127051,-38.5571264273259,0 178.217756619116,-38.5570676986227,0 178.217917551657,-38.5568243934837,0 178.217874636313,-38.5566230368839,0 178.217552771231,-38.556203542156,0 178.218089213034,-38.5559434541953,0 178.219805826804,-38.5561951522365,0 178.220074047705,-38.55635456054,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="dissolved.77">
+			<visibility>0</visibility>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#dissolved.schema">
+					<SimpleData name="fid">562</SimpleData>
+					<SimpleData name="ID">449d33b3-57be-ed11-abbe-0242dd29bb30</SimpleData>
+					<SimpleData name="Quantity">48</SimpleData>
+					<SimpleData name="Species_Name">Karamū</SimpleData>
+					<SimpleData name="Species_Scientific">Coprosma robusta</SimpleData>
+					<SimpleData name="Planting_SubmittedOn">March 9, 2023, 8:52 AM</SimpleData>
+					<SimpleData name="Application_Geo">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJN4jGVw36a20Ri5oV6KvjATo&quot;,&quot;lat&quot;:-38.69286041417156,&quot;lng&quot;:176.1028319509925,&quot;poly&quot;:[{&quot;lat&quot;:-38.69272687802628,&quot;lng&quot;:176.10123660694666},{&quot;lat&quot;:-38.69263895137798,&quot;lng&quot;:176.10112931858606},{&quot;lat&quot;:-38.69242122778375,&quot;lng&quot;:176.10114541184015},{&quot;lat&quot;:-38.69232911375593,&quot;lng&quot;:176.10124733578272},{&quot;lat&quot;:-38.69235004877267,&quot;lng&quot;:176.10154774319238},{&quot;lat&quot;:-38.69248821972947,&quot;lng&quot;:176.1016228450448},{&quot;lat&quot;:-38.69253008966369,&quot;lng&quot;:176.1018213285119},{&quot;lat&quot;:-38.69246309775718,&quot;lng&quot;:176.1021110070855},{&quot;lat&quot;:-38.69240866678693,&quot;lng&quot;:176.1024328721673},{&quot;lat&quot;:-38.69233748776336,&quot;lng&quot;:176.10260989796228},{&quot;lat&quot;:-38.69243797577606,&quot;lng&quot;:176.10258307587213},{&quot;lat&quot;:-38.692500780712315,&quot;lng&quot;:176.10265817772455},{&quot;lat&quot;:-38.692433788778345,&quot;lng&quot;:176.10273327957697},{&quot;lat&quot;:-38.69250915469965,&quot;lng&quot;:176.10304978024072},{&quot;lat&quot;:-38.69265151233435,&quot;lng&quot;:176.10321071278162},{&quot;lat&quot;:-38.69274362594703,&quot;lng&quot;:176.10336091648645},{&quot;lat&quot;:-38.692784605454925,&quot;lng&quot;:176.1037674716207},{&quot;lat&quot;:-38.69291440163347,&quot;lng&quot;:176.10391767532553},{&quot;lat&quot;:-38.69294789738326,&quot;lng&quot;:176.1042878201696},{&quot;lat&quot;:-38.69301907579947,&quot;lng&quot;:176.10453458339896},{&quot;lat&quot;:-38.693107001980536,&quot;lng&quot;:176.10450239689078},{&quot;lat&quot;:-38.69311118893885,&quot;lng&quot;:176.10429854900565},{&quot;lat&quot;:-38.69318655414648,&quot;lng&quot;:176.10415907413687},{&quot;lat&quot;:-38.69330378875608,&quot;lng&quot;:176.10413225204672},{&quot;lat&quot;:-38.69334984515728,&quot;lng&quot;:176.10399814159598},{&quot;lat&quot;:-38.69339171458719,&quot;lng&quot;:176.1038372090551},{&quot;lat&quot;:-38.69330378875608,&quot;lng&quot;:176.1037513783666},{&quot;lat&quot;:-38.69328285401846,&quot;lng&quot;:176.10338123352255},{&quot;lat&quot;:-38.69328704096647,&quot;lng&quot;:176.1031934788915},{&quot;lat&quot;:-38.69318236719258,&quot;lng&quot;:176.10313447029318},{&quot;lat&quot;:-38.69324098452483,&quot;lng&quot;:176.10300572426047},{&quot;lat&quot;:-38.69318236719258,&quot;lng&quot;:176.10290916473593},{&quot;lat&quot;:-38.693115375896916,&quot;lng&quot;:176.1028126052114},{&quot;lat&quot;:-38.693090254144856,&quot;lng&quot;:176.1026892235967},{&quot;lat&quot;:-38.69302744972613,&quot;lng&quot;:176.10250146896567},{&quot;lat&quot;:-38.69295627131825,&quot;lng&quot;:176.10237272293296},{&quot;lat&quot;:-38.692746922649306,&quot;lng&quot;:176.10251756221976},{&quot;lat&quot;:-38.692625500140586,&quot;lng&quot;:176.1025443843099},{&quot;lat&quot;:-38.69251663840583,&quot;lng&quot;:176.1024692824575},{&quot;lat&quot;:-38.69255850832342,&quot;lng&quot;:176.10237808735098},{&quot;lat&quot;:-38.69257944327302,&quot;lng&quot;:176.10226007015433},{&quot;lat&quot;:-38.692545947350716,&quot;lng&quot;:176.10212595970359},{&quot;lat&quot;:-38.6926003782165,&quot;lng&quot;:176.1019650271627},{&quot;lat&quot;:-38.69270086585992,&quot;lng&quot;:176.10197039158072},{&quot;lat&quot;:-38.692772044521924,&quot;lng&quot;:176.10185237438407},{&quot;lat&quot;:-38.692788792432104,&quot;lng&quot;:176.10171826393332},{&quot;lat&quot;:-38.69275110962869,&quot;lng&quot;:176.10160024673667},{&quot;lat&quot;:-38.692684117929154,&quot;lng&quot;:176.10143931419577},{&quot;lat&quot;:-38.692721800767856,&quot;lng&quot;:176.10132129699912}],&quot;region&quot;:&quot;Waikato&quot;,&quot;district&quot;:&quot;Taupo District&quot;}</SimpleData>
+					<SimpleData name="Application_Reference">105,329</SimpleData>
+					<SimpleData name="Season_Name">2022</SimpleData>
+					<SimpleData name="geo_column">{&quot;id&quot;:&quot;&quot;,&quot;place_id&quot;:&quot;ChIJN4jGVw36a20Ri5oV6KvjATo&quot;,&quot;lat&quot;:-38.69286041417156,&quot;lng&quot;:176.1028319509925,&quot;poly&quot;:[{&quot;lat&quot;:-38.69272687802628,&quot;lng&quot;:176.10123660694666},{&quot;lat&quot;:-38.69263895137798,&quot;lng&quot;:176.10112931858606},{&quot;lat&quot;:-38.69242122778375,&quot;lng&quot;:176.10114541184015},{&quot;lat&quot;:-38.69232911375593,&quot;lng&quot;:176.10124733578272},{&quot;lat&quot;:-38.69235004877267,&quot;lng&quot;:176.10154774319238},{&quot;lat&quot;:-38.69248821972947,&quot;lng&quot;:176.1016228450448},{&quot;lat&quot;:-38.69253008966369,&quot;lng&quot;:176.1018213285119},{&quot;lat&quot;:-38.69246309775718,&quot;lng&quot;:176.1021110070855},{&quot;lat&quot;:-38.69240866678693,&quot;lng&quot;:176.1024328721673},{&quot;lat&quot;:-38.69233748776336,&quot;lng&quot;:176.10260989796228},{&quot;lat&quot;:-38.69243797577606,&quot;lng&quot;:176.10258307587213},{&quot;lat&quot;:-38.692500780712315,&quot;lng&quot;:176.10265817772455},{&quot;lat&quot;:-38.692433788778345,&quot;lng&quot;:176.10273327957697},{&quot;lat&quot;:-38.69250915469965,&quot;lng&quot;:176.10304978024072},{&quot;lat&quot;:-38.69265151233435,&quot;lng&quot;:176.10321071278162},{&quot;lat&quot;:-38.69274362594703,&quot;lng&quot;:176.10336091648645},{&quot;lat&quot;:-38.692784605454925,&quot;lng&quot;:176.1037674716207},{&quot;lat&quot;:-38.69291440163347,&quot;lng&quot;:176.10391767532553},{&quot;lat&quot;:-38.69294789738326,&quot;lng&quot;:176.1042878201696},{&quot;lat&quot;:-38.69301907579947,&quot;lng&quot;:176.10453458339896},{&quot;lat&quot;:-38.693107001980536,&quot;lng&quot;:176.10450239689078},{&quot;lat&quot;:-38.69311118893885,&quot;lng&quot;:176.10429854900565},{&quot;lat&quot;:-38.69318655414648,&quot;lng&quot;:176.10415907413687},{&quot;lat&quot;:-38.69330378875608,&quot;lng&quot;:176.10413225204672},{&quot;lat&quot;:-38.69334984515728,&quot;lng&quot;:176.10399814159598},{&quot;lat&quot;:-38.69339171458719,&quot;lng&quot;:176.1038372090551},{&quot;lat&quot;:-38.69330378875608,&quot;lng&quot;:176.1037513783666},{&quot;lat&quot;:-38.69328285401846,&quot;lng&quot;:176.10338123352255},{&quot;lat&quot;:-38.69328704096647,&quot;lng&quot;:176.1031934788915},{&quot;lat&quot;:-38.69318236719258,&quot;lng&quot;:176.10313447029318},{&quot;lat&quot;:-38.69324098452483,&quot;lng&quot;:176.10300572426047},{&quot;lat&quot;:-38.69318236719258,&quot;lng&quot;:176.10290916473593},{&quot;lat&quot;:-38.693115375896916,&quot;lng&quot;:176.1028126052114},{&quot;lat&quot;:-38.693090254144856,&quot;lng&quot;:176.1026892235967},{&quot;lat&quot;:-38.69302744972613,&quot;lng&quot;:176.10250146896567},{&quot;lat&quot;:-38.69295627131825,&quot;lng&quot;:176.10237272293296},{&quot;lat&quot;:-38.692746922649306,&quot;lng&quot;:176.10251756221976},{&quot;lat&quot;:-38.692625500140586,&quot;lng&quot;:176.1025443843099},{&quot;lat&quot;:-38.69251663840583,&quot;lng&quot;:176.1024692824575},{&quot;lat&quot;:-38.69255850832342,&quot;lng&quot;:176.10237808735098},{&quot;lat&quot;:-38.69257944327302,&quot;lng&quot;:176.10226007015433},{&quot;lat&quot;:-38.692545947350716,&quot;lng&quot;:176.10212595970359},{&quot;lat&quot;:-38.6926003782165,&quot;lng&quot;:176.1019650271627},{&quot;lat&quot;:-38.69270086585992,&quot;lng&quot;:176.10197039158072},{&quot;lat&quot;:-38.692772044521924,&quot;lng&quot;:176.10185237438407},{&quot;lat&quot;:-38.692788792432104,&quot;lng&quot;:176.10171826393332},{&quot;lat&quot;:-38.69275110962869,&quot;lng&quot;:176.10160024673667},{&quot;lat&quot;:-38.692684117929154,&quot;lng&quot;:176.10143931419577},{&quot;lat&quot;:-38.692721800767856,&quot;lng&quot;:176.10132129699912}],&quot;region&quot;:&quot;Waikato&quot;,&quot;district&quot;:&quot;Taupo District&quot;}</SimpleData>
+					<SimpleData name="Area (m^2)">12942</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							176.101547743192,-38.6923500487727,0 176.101622845045,-38.6924882197295,0 176.101821328512,-38.6925300896637,0 176.102111007086,-38.6924630977572,0 176.102432872167,-38.6924086667869,0 176.102609897962,-38.6923374877634,0 176.102583075872,-38.6924379757761,0 176.102658177725,-38.6925007807123,0 176.102733279577,-38.6924337887783,0 176.103049780241,-38.6925091546996,0 176.103210712782,-38.6926515123343,0 176.103360916486,-38.692743625947,0 176.103767471621,-38.6927846054549,0 176.103917675326,-38.6929144016335,0 176.10428782017,-38.6929478973833,0 176.104534583399,-38.6930190757995,0 176.104502396891,-38.6931070019805,0 176.104298549006,-38.6931111889389,0 176.104159074137,-38.6931865541465,0 176.104132252047,-38.6933037887561,0 176.103998141596,-38.6933498451573,0 176.103837209055,-38.6933917145872,0 176.103751378367,-38.6933037887561,0 176.103381233523,-38.6932828540185,0 176.103193478892,-38.6932870409665,0 176.103134470293,-38.6931823671926,0 176.10300572426,-38.6932409845248,0 176.102909164736,-38.6931823671926,0 176.102812605211,-38.6931153758969,0 176.102689223597,-38.6930902541448,0 176.102501468966,-38.6930274497261,0 176.102372722933,-38.6929562713182,0 176.10251756222,-38.6927469226493,0 176.10254438431,-38.6926255001406,0 176.102469282457,-38.6925166384058,0 176.102378087351,-38.6925585083234,0 176.102260070154,-38.692579443273,0 176.102125959704,-38.6925459473507,0 176.101965027163,-38.6926003782165,0 176.101970391581,-38.6927008658599,0 176.101852374384,-38.6927720445219,0 176.101718263933,-38.6927887924321,0 176.101600246737,-38.6927511096287,0 176.101439314196,-38.6926841179292,0 176.101321296999,-38.6927218007679,0 176.101236606947,-38.6927268780263,0 176.101129318586,-38.692638951378,0 176.10114541184,-38.6924212277837,0 176.101247335783,-38.6923291137559,0 176.101547743192,-38.6923500487727,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	</Folder>
+</Document>
+</kml>

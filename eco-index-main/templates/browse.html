@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataset Browser - Infinite Scroll</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background-color: #f0f2f5; color: #333; }
+        .header { background-color: #1a237e; color: white; padding: 20px; text-align: center; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+        .header h1 { margin: 0; }
+        .container { max-width: 1300px; margin: 20px auto; padding: 0 15px; }
+        .dataset-controls { background-color:#fff; padding:15px 20px; margin-bottom:20px; border-radius:8px; box-shadow:0 2px 4px rgba(0,0,0,0.1); display:flex; flex-wrap:wrap; gap:15px; }
+        .dataset-controls label { font-weight:bold; margin-right:5px; }
+        .status-bar { text-align: center; margin-bottom: 15px; padding: 10px; background-color: #e3f2fd; border: 1px solid #bbdefb; border-radius: 5px; color: #333;}
+        #items-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; } /* Responsive grid */
+        .item { display: flex; flex-direction: column; border: 1px solid #e0e0e0; border-radius: 8px; background-color: #f9f9f9; box-shadow: 0 2px 4px rgba(0,0,0,0.05); overflow: hidden; } /* For responsive grid */
+        .item-header { font-size: 0.9em; font-weight: bold; padding: 10px 12px; background-color: #e8eaf6; color: #3f51b5; border-bottom: 1px solid #e0e0e0; }
+        .item-header .mask-percentage { font-weight: normal; color: #1e88e5; }
+        .item-content { display: flex; flex-direction: column; align-items: center; padding: 10px; flex-grow: 1; } /* Changed for grid layout */
+        .image-pair { display: flex; flex-direction: column; align-items: center; margin-bottom: 10px; width: 100%;}
+        .image-pair p { margin-top: 0; margin-bottom: 8px; font-weight: bold; color: #555; font-size: 0.9em; }
+        .image-pair img { max-width: 100%; height: auto; max-height: 280px; /* Adjust based on patch size */ border: 1px solid #ddd; background-color: #e8e8e8; object-fit: contain; }
+        #loading-indicator { text-align: center; padding: 20px; font-size: 1.2em; color: #555; }
+        .error-message-bar { text-align: center; margin: 20px; padding: 15px; border-radius: 5px; color: #d32f2f; background-color: #ffebee; border: 1px solid #ffcdd2; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Image Mask Dataset Browser</h1>
+    </div>
+
+    <div class="container">
+        {% if initial_error_message %}
+            <p class="error-message-bar">{{ initial_error_message }}</p>
+        {% elif not is_ready %}
+             <p id="initial-loading-message" class="status-bar">Dataset is preparing, please wait... This may take a few minutes for large datasets.</p>
+        {% endif %}
+
+        <div class="dataset-controls" {% if not is_ready %}style="display:none;"{% endif %}>
+            <label>Patch Size: <input type="number" id="patchSizeInput" value="{{ patch_size }}" min="32" step="1"></label>
+            <label>Pos Fraction: <input type="number" id="posFractionInput" min="0" max="1" step="0.05" value="{{ pos_fraction }}"></label>
+            <label>H Flip Prob: <input type="number" id="flipHProbInput" min="0" max="1" step="0.1" value="{{ flip_h_prob }}"></label>
+            <label>V Flip Prob: <input type="number" id="flipVProbInput" min="0" max="1" step="0.1" value="{{ flip_v_prob }}"></label>
+            <label>Rotation (deg): <input type="number" id="rotateDegInput" min="0" max="180" step="1" value="{{ rotation_deg }}"></label>
+            <label>Zoom Range: <input type="number" id="zoomMinInput" step="0.1" value="{{ zoom_min }}"> to <input type="number" id="zoomMaxInput" step="0.1" value="{{ zoom_max }}"></label>
+            <label>Color Jitter: <input type="number" id="jitterInput" min="0" max="1" step="0.1" value="{{ jitter }}"></label>
+            <button id="applySettingsButton">Apply Settings</button>
+        </div>
+
+
+        <div id="items-container">
+            <!-- Items will be loaded here by JavaScript -->
+        </div>
+        <div id="loading-indicator" style="display:none;">Loading more items...</div>
+        <div id="end-of-list-message" style="display:none; text-align:center; padding: 20px; color: #777;">-- End of list --</div>
+    </div>
+
+    <script>
+        const itemsContainer = document.getElementById('items-container');
+        const loadingIndicator = document.getElementById('loading-indicator');
+        const endOfListMessage = document.getElementById('end-of-list-message');
+        const initialLoadingMessageEl = document.getElementById('initial-loading-message');
+        const datasetControlsEl = document.querySelector('.dataset-controls');
+        const patchSizeInput = document.getElementById('patchSizeInput');
+        const posFractionInput = document.getElementById('posFractionInput');
+        const flipHProbInput = document.getElementById('flipHProbInput');
+        const flipVProbInput = document.getElementById('flipVProbInput');
+        const rotateDegInput = document.getElementById('rotateDegInput');
+        const zoomMinInput = document.getElementById('zoomMinInput');
+        const zoomMaxInput = document.getElementById('zoomMaxInput');
+        const jitterInput = document.getElementById('jitterInput');
+        const applySettingsButton = document.getElementById('applySettingsButton');
+
+
+        let currentOffset = 0;
+        let isLoading = false;
+        let hasMoreItems = true;
+
+        async function loadItems(isFilterChange = false) {
+            if (isLoading) return;
+            if (!hasMoreItems && !isFilterChange) return;
+
+            isLoading = true;
+            loadingIndicator.style.display = 'block';
+            endOfListMessage.style.display = 'none';
+
+            if (isFilterChange) {
+                currentOffset = 0;
+                itemsContainer.innerHTML = ''; // Clear existing items
+                hasMoreItems = true; // Reset for new filter
+            }
+
+            try {
+                const query = new URLSearchParams({
+                    offset: currentOffset,
+                    patch_size: patchSizeInput.value,
+                    pos_fraction: posFractionInput.value,
+                    flip_h_prob: flipHProbInput.value,
+                    flip_v_prob: flipVProbInput.value,
+                    rotation_deg: rotateDegInput.value,
+                    zoom_min: zoomMinInput.value,
+                    zoom_max: zoomMaxInput.value,
+                    jitter: jitterInput.value
+                });
+                const response = await fetch(`/load_items?${query.toString()}`);
+                const rawData = await response.text()
+                console.log(rawData);
+                if (!response.ok) {
+                    const errorData = await response.json().catch(() => ({ error: "Failed to parse error response" }));
+                    throw new Error(`HTTP error ${response.status}: ${errorData.error || 'Unknown error'}`);
+                }
+                const data = JSON.parse(rawData);
+
+                if(initialLoadingMessageEl) initialLoadingMessageEl.style.display = 'none';
+                if(datasetControlsEl) datasetControlsEl.style.display = 'flex';
+
+
+                if (data.html) {
+                    itemsContainer.insertAdjacentHTML('beforeend', data.html);
+                }
+                currentOffset += {{ ITEMS_PER_LOAD }}; // Use server-defined limit
+                hasMoreItems = data.has_more;
+                
+                if (!hasMoreItems && itemsContainer.children.length > 0) {
+                    endOfListMessage.style.display = 'block';
+                } else if (!hasMoreItems && itemsContainer.children.length === 0) {
+                    endOfListMessage.style.display = 'none';
+                }
+
+
+            } catch (error) {
+                console.error('Failed to load items:', error);
+                itemsContainer.innerHTML = `<p class="error-message-bar">Error loading items: ${error.message}. Check console for details.</p>`;
+            } finally {
+                isLoading = false;
+                loadingIndicator.style.display = 'none';
+            }
+        }
+
+        applySettingsButton.addEventListener('click', () => loadItems(true));
+
+        window.addEventListener('scroll', () => {
+            if (isLoading || !hasMoreItems) return;
+            // Load more when 200px from bottom
+            if ((window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 200) {
+                loadItems();
+            }
+        });
+        
+        // Initial load
+        document.addEventListener('DOMContentLoaded', () => {
+            {% if is_ready %}
+                loadItems();
+            {% else %}
+                // If not ready, Flask will show an error or loading message.
+                // We can periodically check if the server is ready if we want client-side polling.
+                // For now, assume Flask handles the initial state display.
+                // If dataset becomes ready after page load (e.g. very long indexing),
+                // user might need to refresh or trigger filter.
+                // One option: server could send a websocket message or use SSE when ready.
+                // Simpler: if initial_error_message is not present and is_ready is false,
+                // The current Flask setup tries to complete indexing before responding to / or /load_items.
+                console.log("Dataset is not ready or an initial error occurred. Waiting for server state.");
+            {% endif %}
+        });
+    </script>
+</body>
+</html>
