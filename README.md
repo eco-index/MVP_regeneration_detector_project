@@ -11,4 +11,4 @@ An initial attempt to use the SAM2 model to classify the planted areas did not w
 
 Finally, eco-Index created a script (validation_image_prep_shapefile_thirds.py) which splits up the output files mentioned above into the three seperate segments, reads the lat and long coordinates of the image, georeferences the detections and creates shapefiles based on a given threshold pixel value (between 0 and 255). The second step is the join_shapefiles.py script which simply goes through all of the individual shapefiles created and joins them into one single file. This was then validated within QGIS as well as converted into a KML file and validated in google earth by the project partners.
 
-The current model is predicting where native plantings are in the Waiwhakaiho region to a 6.5% by using an IOU calculation. Further refinement to add additional training data to the model would help to improve this accuarcy. 
+The current model is predicting where native plantings are in the Waiwhakaiho region to a 28% by using an IOU calculation. Further refinement to add additional training data to the model would help to improve this accuarcy. 
