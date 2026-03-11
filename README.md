@@ -1,5 +1,5 @@
-# Native_plantings
-Detection of native plantings in New Zealand
+# MVP regeneration detector project
+Detection of regeneration vegetation in New Zealand
 
 This project was funded by the Imaginal Seeds Foundation and aimed at detecting native planting efforts through the use of satellite imagery combined with a neural network. This project was a joint effort between Litmus Datatech, Trees That Count, Taranaki Mounga Project and Eco-index. Litmus created the satellite data collection method as well as the neural network model (based on Prithvi V2). Trees That Count provided the areas and locations for recorded planting efforts across New Zealand. Taranaki Mounga Project provided the validation of plantings across the Waiwhakaiho catchment of the Taranaki Region and eco-Index organized the efforts from each organization as well as provided data cleaning and handling between each step.
 
